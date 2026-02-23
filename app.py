@@ -22,7 +22,10 @@ from litestar.enums import MediaType
 from shopping_list import load_recipe, aggregate, build_pdf, CATEGORY_ORDER
 from models import GroceryCategory
 
+import os
+
 RECIPES_DIR = Path("recipes")
+ROOT_PATH = os.environ.get("ROOT_PATH", "").rstrip("/")
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Helpers
@@ -121,9 +124,7 @@ def _page(body: str) -> Response:
     return Response(content=_BASE.format(body=body), media_type=MediaType.HTML)
 
 
-def _root(request: Request) -> str:
-    """Return the ASGI root path (e.g. '/shopping'), or '' if unset."""
-    return request.scope.get("root_path", "").rstrip("/")
+
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -133,7 +134,6 @@ def _root(request: Request) -> str:
 @get("/")
 async def index(request: Request) -> Response:
     all_recipes = _all_recipes()
-    root = _root(request)
 
     if not all_recipes:
         body = "<p>No recipe JSON files found in <code>./recipes/</code>.</p>"
@@ -145,7 +145,7 @@ async def index(request: Request) -> Response:
     )
 
     body = f"""
-<form method="POST" action="{root}/ingredients" id="main-form">
+<form method="POST" action="{ROOT_PATH}/ingredients" id="main-form">
   <div style="display:flex;flex-direction:column;gap:.25rem">{checkboxes}</div>
 </form>
 <div class="toolbar">
@@ -164,15 +164,14 @@ async def index(request: Request) -> Response:
 async def ingredients(request: Request) -> Response:
     form = await request.form()
     stems = form.getall("recipe")
-    root = _root(request)
 
     if not stems:
-        body = f'<p>No recipes selected. <a href="{root}/">Go back</a></p>'
+        body = f'<p>No recipes selected. <a href="{ROOT_PATH}/">Go back</a></p>'
         return _page(body)
 
     recipes = _load_selected(stems)
     if not recipes:
-        body = f'<p>Could not load any recipes. <a href="{root}/">Go back</a></p>'
+        body = f'<p>Could not load any recipes. <a href="{ROOT_PATH}/">Go back</a></p>'
         return _page(body)
 
     shopping, _ = aggregate(recipes)
@@ -223,7 +222,7 @@ async def ingredients(request: Request) -> Response:
 
     body = f"""
 <p class="notice">* staple &nbsp;&nbsp; <em>italics</em> = optional</p>
-<form method="POST" action="{root}/pdf" id="main-form">
+<form method="POST" action="{ROOT_PATH}/pdf" id="main-form">
   {hidden_recipes}
   <input type="hidden" name="shopping_json" value="{_escape_attr(json.dumps(shopping))}">
   <table>
@@ -239,7 +238,7 @@ async def ingredients(request: Request) -> Response:
   </table>
 </form>
 <div class="toolbar">
-  <a href="{root}/"><button class="btn btn-secondary" type="button">&#8592; Back</button></a>
+  <a href="{ROOT_PATH}/"><button class="btn btn-secondary" type="button">&#8592; Back</button></a>
   <button class="btn-ghost" type="button" onclick="toggleAll(document.getElementById('main-form'), true)">Select all</button>
   <button class="btn-ghost" type="button" onclick="toggleAll(document.getElementById('main-form'), false)">Deselect all</button>
   <button class="btn btn-primary" type="submit" form="main-form">Download PDF</button>

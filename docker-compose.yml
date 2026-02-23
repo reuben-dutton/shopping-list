@@ -4,7 +4,9 @@ services:
     volumes:
       - ./recipes:/app/recipes:ro
     restart: unless-stopped
-    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--root-path", "/shopping"]
+    environment:
+      - ROOT_PATH=/shopping
+    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
     networks:
       - caddy
 
