@@ -1,11 +1,13 @@
 services:
   shopping-list:
     build: .
-    ports:
-      - "8000:8000"
     volumes:
-      # Mount your recipes directory so JSON files are read from the host.
-      # Adjust the left-hand path if your recipes live elsewhere.
       - ./recipes:/app/recipes:ro
     restart: unless-stopped
     command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--root-path", "/shopping"]
+    networks:
+      - caddy
+
+networks:
+  caddy:
+    external: true
