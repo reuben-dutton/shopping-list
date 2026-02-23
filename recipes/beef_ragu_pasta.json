@@ -1,0 +1,218 @@
+{
+  "name": "Slow Cooked Shredded Beef Ragu Pasta",
+  "source": "RecipeTin Eats",
+  "url": "https://www.recipetineats.com/slow-cooked-shredded-beef-ragu-pasta/",
+  "ingredients": [
+    {
+      "measurement": { "unit": "kg", "plural": "kg", "amount": 1.2 },
+      "name": "beef",
+      "part": null,
+      "variety": "chuck or other slow-cooking cut",
+      "intrinsics": [],
+      "preparation": ["cut into 4 equal pieces"],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 1 },
+      "name": "salt",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "pinch", "plural": "pinches", "amount": 1 },
+      "name": "black pepper",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 3 },
+      "name": "olive oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "clove", "plural": "cloves", "amount": 3 },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["minced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 1 },
+      "name": "onion",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["diced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 1 },
+      "name": "carrots",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["diced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 1 },
+      "name": "celery",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["diced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 800 },
+      "name": "crushed tomatoes",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["canned"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 3 },
+      "name": "tomato paste",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 2 },
+      "name": "beef bouillon cubes",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["crumbled"],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 1 },
+      "name": "red wine",
+      "part": null,
+      "variety": "full bodied (merlot or cabernet sauvignon)",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "mL", "plural": "mL", "amount": 375 },
+      "name": "water",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Other",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tsp", "plural": "tsp", "amount": 0.75 },
+      "name": "thyme",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "leaf", "plural": "leaves", "amount": 3 },
+      "name": "bay leaves",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 500 },
+      "name": "pappardelle pasta",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "handful", "plural": "handfuls", "amount": 1 },
+      "name": "parmesan",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["grated"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "handful", "plural": "handfuls", "amount": 1 },
+      "name": "parsley",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": true,
+      "staple": false
+    }
+  ],
+  "steps": [
+    { "instruction": "Pat the beef dry and season generously all over with salt and pepper." },
+    { "instruction": "Heat 1 tbsp of olive oil in a large heavy-based pot over high heat. Sear the beef on all sides until very deeply browned, about 3–5 minutes total. Remove to a plate." },
+    { "instruction": "Reduce heat to medium-low and add the remaining 2 tbsp of olive oil. Add the garlic and onion and sauté for 2 minutes. Add the carrots and celery and sauté slowly for 5 minutes." },
+    { "instruction": "Add the crushed tomatoes, tomato paste, bouillon cubes, red wine, water, thyme, and bay leaves. Return the beef and any pooled juices to the pot. Raise heat to bring to a simmer, then reduce to low so the liquid bubbles very gently." },
+    { "instruction": "Cover and cook for 2 hours, or until the beef is tender enough to shred." },
+    { "instruction": "Remove the beef and coarsely shred with two forks. Return the shredded beef to the pot. Simmer uncovered for 30 minutes until the sauce reduces and thickens." },
+    { "instruction": "Taste and adjust seasoning with salt and pepper. Add up to 1/2 tsp sugar if the sauce is too sharp. Cover and set aside until ready to serve." },
+    { "instruction": "Bring a very large pot of salted water to the boil. Cook the pappardelle for 1 minute less than the packet instructions." },
+    { "instruction": "While the pasta cooks, heat 5 cups of ragu in a large frying pan or Dutch oven over high heat." },
+    { "instruction": "Transfer the cooked pasta directly into the pan using tongs. Add 3/4 cup of pasta water. Toss for 1–2 minutes until the sauce reduces and clings to the pasta." },
+    { "instruction": "Serve immediately with plenty of freshly grated parmesan and parsley if desired." }
+  ]
+}

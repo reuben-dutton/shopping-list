@@ -1,0 +1,146 @@
+{
+  "name": "Potato Leek Soup",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/potato-leek-soup-2/56c16a16-d92c-475c-92cc-4b8eecd6c0c5",
+  "ingredients": [
+    {
+      "_type": "SubRecipe",
+      "name": "Croutons",
+      "window": "none",
+      "ingredients": [
+        {
+          "measurement": { "unit": "slice", "plural": "slices", "amount": 3 },
+          "name": "white bread",
+          "part": null,
+          "variety": null,
+          "intrinsics": ["day-old"],
+          "preparation": ["crusts removed", "cut into 2cm cubes"],
+          "category": "Bakery",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 2 },
+          "name": "olive oil",
+          "part": null,
+          "variety": null,
+          "intrinsics": ["extra virgin"],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        { "instruction": "Preheat oven to 200°C (180°C fan-forced). Place the bread cubes in a roasting pan, drizzle with olive oil, and toss until evenly coated." },
+        { "instruction": "Toast in the oven, shaking the pan occasionally, for 10–15 minutes until crisp and golden. Set aside." }
+      ]
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 0.25 },
+      "name": "olive oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 1 },
+      "name": "onion",
+      "part": null,
+      "variety": "brown",
+      "intrinsics": [],
+      "preparation": ["halved", "chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "clove", "plural": "cloves", "amount": 1 },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["crushed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 700 },
+      "name": "potatoes",
+      "part": null,
+      "variety": "desiree or pontiac",
+      "intrinsics": [],
+      "preparation": ["peeled", "cut into 2cm cubes"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 2 },
+      "name": "leeks",
+      "part": "pale section only",
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["washed", "dried", "thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "L", "plural": "L", "amount": 1.25 },
+      "name": "vegetable stock",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 0.5 },
+      "name": "cream",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["thickened"],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 2 },
+      "name": "chives",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    { "instruction": "Heat the olive oil in a large saucepan over medium-high heat. Add the onion and garlic and cook, stirring, for 3 minutes until the onion softens." },
+    { "instruction": "Add the potato and leek and cook, stirring, for 5 minutes until the leek softens." },
+    { "instruction": "Add the vegetable stock and bring to the boil. Reduce heat to medium and gently boil, uncovered, for 20 minutes until the potato is soft. Remove from heat and set aside for 10 minutes to cool." },
+    {
+      "_type": "Branch",
+      "options": {
+        "Blender": [
+          { "instruction": "Transfer one-third of the potato mixture to a blender jug and blend until smooth. Pour into a clean saucepan. Repeat in two more batches with the remaining mixture." }
+        ],
+        "Stick blender": [
+          { "instruction": "Use a stick blender to blend the soup directly in the saucepan until smooth." }
+        ]
+      }
+    },
+    { "instruction": "Place the blended soup over medium heat. Add the cream and stir to combine. Cook, stirring, for 5 minutes until hot. Season with salt to taste." },
+    { "instruction": "Ladle the soup into bowls and top with croutons, chives, a drizzle of olive oil. Serve immediately." }
+  ]
+}

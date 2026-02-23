@@ -1,0 +1,191 @@
+{
+  "name": "Chicken Larb (Thai Larb Gai)",
+  "source": "Lemon Blossoms",
+  "url": "https://www.lemonblossoms.com/blog/thai-chicken-larb-salad/",
+  "ingredients": [
+    {
+      "_type": "SubRecipe",
+      "name": "Larb Sauce",
+      "window": "none",
+      "ingredients": [
+        {
+          "measurement": { "unit": "cup", "plural": "cups", "amount": 0.25 },
+          "name": "fish sauce",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Canned & Jarred",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 6 },
+          "name": "lime juice",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": ["freshly squeezed"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": { "unit": "cup", "plural": "cups", "amount": 0.25 },
+          "name": "sugar",
+          "part": null,
+          "variety": "brown",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        { "instruction": "Mix together the fish sauce, lime juice, and sugar until well combined." }
+      ]
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 1 },
+      "name": "oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["mild (vegetable, canola, or coconut)"],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 1 },
+      "name": "Thai chile",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 1 },
+      "name": "shallot",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "clove", "plural": "cloves", "amount": 4 },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["minced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "lb", "plural": "lb", "amount": 1.5 },
+      "name": "chicken",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 2 },
+      "name": "scallions",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "whole", "plural": "whole", "amount": 0.5 },
+      "name": "red onion",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 3 },
+      "name": "cilantro",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 0.25 },
+      "name": "mint",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 2 },
+      "name": "Thai basil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 0.375 },
+      "name": "rice",
+      "part": null,
+      "variety": "white or jasmine",
+      "intrinsics": ["raw", "short grain"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": true,
+      "staple": false
+    }
+  ],
+  "steps": [
+    { "instruction": "Heat a wok or large skillet over medium-high heat. Add the oil. When hot, add the chiles, shallot, and garlic and cook, stirring constantly, for 1–2 minutes until the shallot is translucent. Do not let the garlic brown." },
+    { "instruction": "Add the ground chicken and cook, breaking it apart with a wooden spoon, for 4–5 minutes until cooked through and no longer pink." },
+    { "instruction": "Add the red onion and scallions and toss for 1–2 minutes until warmed through but not fully softened." },
+    { "instruction": "Stir in the larb sauce and toss to combine. If using rice powder, sprinkle in a spoonful and toss; add more to taste for a thicker texture." },
+    { "instruction": "Remove from the heat. Stir through the fresh cilantro, mint, and basil (if using). Taste and adjust: more chiles for heat, fish sauce for saltiness, sugar for sweetness, or lime juice for tartness." },
+    { "instruction": "Serve warm or at room temperature with sticky rice, lettuce or cabbage leaves, sliced cucumbers, carrot sticks, green beans, and lime wedges." },
+    {
+      "_type": "Branch",
+      "options": {
+        "With rice powder (optional thickener)": [
+          { "instruction": "In a dry pan over medium-low heat, toast the raw rice, stirring often, for about 10 minutes until fragrant and medium golden brown." },
+          { "instruction": "Transfer to a food processor or blender and grind to a coarse powder. Sprinkle into the larb as directed in Step 4." }
+        ],
+        "Without rice powder": [
+          { "instruction": "Skip the rice powder. Optionally substitute a small cornstarch-and-water slurry as a thickener if desired." }
+        ]
+      }
+    }
+  ]
+}

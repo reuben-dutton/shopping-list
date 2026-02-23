@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "shopping-list"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.12.5"
+ipykernel = "^7.2.0"
+reportlab = "^4.4.10"
+litestar = {extras = ["standard"], version = "^2.21.0"}
+uvicorn = "^0.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

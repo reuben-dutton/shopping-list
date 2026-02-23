@@ -1,0 +1,167 @@
+{
+  "name": "Nicoise Salad (Salade Nicoise)",
+  "source": "RecipeTin Eats",
+  "url": "https://www.recipetineats.com/nicoise-salad-french-salad-with-tuna/",
+  "ingredients": [
+    {
+      "_type": "SubRecipe",
+      "name": "Lemon Nicoise Dressing",
+      "window": "1 week",
+      "ingredients": [
+        {
+          "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 1.5 },
+          "name": "lemon juice",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": ["freshly squeezed"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 4 },
+          "name": "olive oil",
+          "part": null,
+          "variety": null,
+          "intrinsics": ["extra virgin"],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": { "unit": "clove", "plural": "cloves", "amount": 1 },
+          "name": "garlic",
+          "part": null,
+          "variety": "small",
+          "intrinsics": [],
+          "preparation": ["minced"],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": { "unit": "tsp", "plural": "tsp", "amount": 1 },
+          "name": "Dijon mustard",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": { "unit": "tsp", "plural": "tsp", "amount": 0.25 },
+          "name": "salt",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": { "unit": "pinch", "plural": "pinches", "amount": 1 },
+          "name": "black pepper",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        { "instruction": "Combine all dressing ingredients in a jar and shake until emulsified." }
+      ]
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 8 },
+      "name": "potatoes",
+      "part": null,
+      "variety": "baby/chat",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 120 },
+      "name": "green beans",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["trimmed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 2 },
+      "name": "tomatoes",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["cut into 8–10 wedges"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 0.5 },
+      "name": "cos lettuce",
+      "part": null,
+      "variety": "baby",
+      "intrinsics": [],
+      "preparation": ["torn into large bite-size pieces"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 3 },
+      "name": "eggs",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["hard-boiled", "peeled", "quartered"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 100 },
+      "name": "black olives",
+      "part": null,
+      "variety": "kalamata or Nicoise",
+      "intrinsics": ["unpitted", "in brine or oil"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 275 },
+      "name": "tuna",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["canned chunk", "in oil"],
+      "preparation": ["drained"],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    { "instruction": "Boil the potatoes until tender. Drain and allow to cool fully, then slice in half." },
+    { "instruction": "Blanch the green beans in boiling water until tender but still vibrant. Drain and refresh under cold running water. Drain well and pat dry." },
+    { "instruction": "Arrange the cos lettuce leaves on a large wide plate." },
+    { "instruction": "Scatter and layer the potatoes, beans, tomatoes, olives, eggs, and chunks of tuna artfully over the lettuce." },
+    { "instruction": "Drizzle the dressing over the assembled salad and serve immediately." }
+  ]
+}

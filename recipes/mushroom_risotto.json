@@ -1,0 +1,185 @@
+{
+  "name": "Mushroom Risotto",
+  "source": "RecipeTin Eats",
+  "url": "https://www.recipetineats.com/mushroom-risotto/",
+  "ingredients": [
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 500 },
+      "name": "mushrooms",
+      "part": null,
+      "variety": "button or Swiss brown/cremini",
+      "intrinsics": [],
+      "preparation": ["sliced 3mm thick"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 250 },
+      "name": "mushrooms",
+      "part": null,
+      "variety": "button or Swiss brown/cremini",
+      "intrinsics": [],
+      "preparation": ["quartered"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 3 },
+      "name": "butter",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 2 },
+      "name": "olive oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "clove", "plural": "cloves", "amount": 3 },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["minced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tsp", "plural": "tsp", "amount": 1 },
+      "name": "salt and pepper",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "plural": "tbsp", "amount": 1 },
+      "name": "butter",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": null, "plural": null, "amount": 2 },
+      "name": "eschallots",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 0.25 },
+      "name": "white wine",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dry"],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 1.25 },
+      "name": "arborio rice",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["uncooked"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 5 },
+      "name": "chicken stock",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["low sodium"],
+      "preparation": ["warmed"],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 0.5 },
+      "name": "cream",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "plural": "g", "amount": 30 },
+      "name": "butter",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": true,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "plural": "cups", "amount": 0.5 },
+      "name": "parmesan",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["finely grated"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "bunch", "plural": "bunches", "amount": 1 },
+      "name": "parsley or chives",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": true,
+      "staple": false
+    }
+  ],
+  "steps": [
+    { "instruction": "Heat 1 tbsp of the olive oil and half the butter (from the mushroom portion) in a large heavy-based pot over high heat. Once melted, add half the sliced mushrooms and cook until well golden, about 4 minutes." },
+    { "instruction": "Add half the garlic, a quarter teaspoon each of salt and pepper, and continue to cook until golden, about 1.5 minutes more. Remove mushrooms to a bowl. Repeat with remaining mushrooms and garlic, then remove." },
+    { "instruction": "Turn heat to medium. In the same pot, melt the risotto butter. Add the remaining garlic and the eschallots and cook for 2 minutes until translucent but not golden." },
+    { "instruction": "Add the wine and simmer rapidly for 2 minutes, scraping the base of the pot, until mostly evaporated." },
+    { "instruction": "Add the rice and stir for 1 minute until semi-translucent." },
+    { "instruction": "Add about 1.5 cups of warm stock. Stir, then leave for 3 minutes (stirring a few times) until mostly absorbed. Repeat twice more in 1.5-cup additions, stirring occasionally each time, until all stock is used and the rice is just cooked but the risotto is still loose and creamy (about 10 minutes total)." },
+    { "instruction": "Add the cream and butter (if using) and stir vigorously to make it creamy." },
+    { "instruction": "Stir in the parmesan, and remaining salt and pepper. Taste and adjust seasoning." },
+    { "instruction": "Stir through half the cooked mushrooms. The consistency should be creamy and oozy, not stodgy." },
+    { "instruction": "Reheat the remaining mushrooms (e.g. in the microwave)." },
+    { "instruction": "Spoon the risotto into bowls and top with the reserved mushrooms (and any buttery juices). Garnish with parsley or chives and extra parmesan. Serve immediately." }
+  ]
+}
