@@ -34,7 +34,7 @@ ROOT_PATH = os.environ.get("ROOT_PATH", "").rstrip("/")
 def _all_recipes() -> list[tuple[str, str]]:
     """Return [(filename_stem, recipe_name), ...] sorted by name."""
     results = []
-    for path in sorted(RECIPES_DIR.glob("*.json")):
+    for path in sorted(RECIPES_DIR.glob("**/*.json")):
         try:
             recipe = load_recipe(path)
             results.append((path.stem, recipe.name))
