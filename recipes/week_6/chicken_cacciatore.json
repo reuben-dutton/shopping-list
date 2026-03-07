@@ -26,10 +26,10 @@
       "staple": true
     },
     {
-      "name": "chicken thigh cutlets",
+      "name": "chicken",
       "measurement": { "amount": 12, "unit": null },
       "variety": null,
-      "part": null,
+      "part": "thigh cutlets",
       "intrinsics": ["skinless"],
       "preparation": [],
       "category": "Meat & Seafood",
