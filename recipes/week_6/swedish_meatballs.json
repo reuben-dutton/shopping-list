@@ -1,0 +1,214 @@
+{
+  "name": "Swedish Meatballs with Dill Sauce",
+  "source": "Allrecipes",
+  "url": "https://www.allrecipes.com/recipe/279630/swedish-meatballs-with-creamy-dill-sauce/",
+  "ingredients": [
+    {
+      "name": "Dill Sauce",
+      "ingredients": [
+        {
+          "name": "sour cream",
+          "measurement": { "amount": 0.5, "unit": "cup" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dairy & Eggs",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Dijon mustard",
+          "measurement": { "amount": 1.5, "unit": "tbsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "lemon juice",
+          "measurement": { "amount": 1, "unit": "tbsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["fresh"],
+          "preparation": [],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "dill",
+          "measurement": { "amount": 2, "unit": "tsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["fresh"],
+          "preparation": ["chopped"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Whisk together sour cream, Dijon mustard, lemon juice, and dill until well blended. Chill before serving."
+        }
+      ],
+      "window": "2 hours"
+    },
+    {
+      "name": "breadcrumbs",
+      "measurement": { "amount": 1, "unit": "cup" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["fresh"],
+      "preparation": [],
+      "category": "Bakery",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "milk",
+      "measurement": { "amount": 0.75, "unit": "cup" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "beef",
+      "measurement": { "amount": 1, "unit": "lb" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["lean", "ground"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "pork",
+      "measurement": { "amount": 8, "unit": "oz" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["lean", "ground"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "onion",
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "parsley",
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "celery",
+      "measurement": { "amount": 0.25, "unit": "cup" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "egg",
+      "measurement": { "amount": 1, "unit": null },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["large"],
+      "preparation": ["lightly beaten"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "garlic",
+      "measurement": { "amount": 1, "unit": "tsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["minced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "sugar",
+      "measurement": { "amount": 1, "unit": "tsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "salt",
+      "measurement": { "amount": 1, "unit": "tsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "black pepper",
+      "measurement": { "amount": 0.5, "unit": "tsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["freshly ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Make the dill sauce ahead of time: whisk together sour cream, Dijon mustard, lemon juice, and dill until well blended. Refrigerate until ready to serve."
+    },
+    {
+      "instruction": "Preheat the oven to 175°C (350°F). Line a baking sheet with foil and place a rack on top. Coat the rack with cooking spray."
+    },
+    {
+      "instruction": "Combine breadcrumbs and milk in a large bowl and let soak for 10 minutes. Mix in the ground beef, ground pork, onion, parsley, celery, egg, garlic, sugar, salt, and pepper until combined — the mixture will be fairly wet."
+    },
+    {
+      "instruction": "Using a tablespoon scoop, form the mixture into 36 meatballs and place on the prepared rack."
+    },
+    {
+      "instruction": "Bake for about 18 minutes, until an instant-read thermometer inserted into the centre reads 71°C (160°F)."
+    },
+    {
+      "instruction": "Serve the meatballs immediately with the chilled dill sauce alongside."
+    }
+  ]
+}

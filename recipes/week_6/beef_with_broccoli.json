@@ -1,0 +1,225 @@
+{
+  "name": "Beef with Broccoli and Oyster Sauce",
+  "source": "SBS Food",
+  "url": "https://www.sbs.com.au/food/recipe/beef-with-broccoli-and-oyster-sauce/5dg1h5pxv",
+  "ingredients": [
+    {
+      "name": "Beef Marinade",
+      "ingredients": [
+        {
+          "name": "soy sauce",
+          "measurement": { "amount": 1, "unit": "tbsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Shaoxing wine",
+          "measurement": { "amount": 1, "unit": "tbsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "sesame oil",
+          "measurement": { "amount": 1, "unit": "tsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "cornflour",
+          "measurement": { "amount": 0.5, "unit": "tsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "white pepper",
+          "measurement": { "amount": 1, "unit": "pinch" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["ground"],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Combine all marinade ingredients with the rump steak and set aside for at least 10 minutes."
+        }
+      ],
+      "window": "2 hours"
+    },
+    {
+      "name": "rump steak",
+      "measurement": { "amount": 500, "unit": "g" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["thinly sliced"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "peanut oil",
+      "measurement": { "amount": 2, "unit": "tbsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "broccoli",
+      "measurement": { "amount": 2, "unit": "cup" },
+      "variety": null,
+      "part": "florets",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "ginger",
+      "measurement": { "amount": 3, "unit": "slice" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["bruised"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "garlic",
+      "measurement": { "amount": 3, "unit": "clove" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["peeled"],
+      "preparation": ["roughly chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "onion",
+      "measurement": { "amount": 1, "unit": null },
+      "variety": "small",
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["peeled", "thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "oyster sauce",
+      "measurement": { "amount": 0.25, "unit": "cup" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "soy sauce",
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "beef stock",
+      "measurement": { "amount": 2, "unit": "tbsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "sugar",
+      "measurement": { "amount": 0.5, "unit": "tsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "cornflour",
+      "measurement": { "amount": 1, "unit": "tsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["mixed with 1 tbsp cold stock or water to form a slurry"],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "rice",
+      "measurement": { "amount": 3, "unit": "cup" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["cooked"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Marinate the sliced rump steak in the pre-prepared beef marinade for at least 10 minutes."
+    },
+    {
+      "instruction": "Heat a cup or two of water in the wok until boiling. Add about a teaspoon of the peanut oil and blanch the broccoli for about 1 minute, until bright green and slightly softened. Remove and set aside."
+    },
+    {
+      "instruction": "Drain the water from the wok and dry over the flame. Add the remaining peanut oil, then the ginger first, followed by the garlic, then the onion. Fry until the onion softens, then remove these aromatics and add them to the broccoli."
+    },
+    {
+      "instruction": "Using the flavoured oil remaining in the wok, fry the marinated beef in batches until well browned. Return all ingredients to the wok and toss together."
+    },
+    {
+      "instruction": "Add the oyster sauce, soy sauce, beef stock, and sugar and toss to coat. Slowly drizzle the cornflour slurry into the wok while tossing, until the sauce thickens and clings to the ingredients."
+    },
+    {
+      "instruction": "Remove to a plate, rest for a minute, and serve with rice."
+    }
+  ]
+}

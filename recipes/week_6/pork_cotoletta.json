@@ -1,0 +1,330 @@
+{
+  "name": "Cotoletta of Free-Range Pork with Italian Coleslaw",
+  "source": "Gourmet Traveller",
+  "url": "https://www.gourmettraveller.com.au/recipe/chefs-recipes/cotoletta-of-free-range-pork-with-italian-coleslaw-8976/",
+  "ingredients": [
+    {
+      "name": "Italian Coleslaw",
+      "ingredients": [
+        {
+          "name": "snow peas",
+          "measurement": { "amount": 175, "unit": "g" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["fresh"],
+          "preparation": ["blanched"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "white cabbage",
+          "measurement": { "amount": 300, "unit": "g" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": ["very thinly sliced on a mandolin"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "fennel",
+          "measurement": { "amount": 1, "unit": null },
+          "variety": "baby",
+          "part": "bulb",
+          "intrinsics": [],
+          "preparation": ["thinly sliced on a mandolin"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "red onion",
+          "measurement": { "amount": 0.5, "unit": null },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": ["thinly sliced on a mandolin"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "radishes",
+          "measurement": { "amount": 3, "unit": null },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": ["thinly sliced on a mandolin"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "basil",
+          "measurement": { "amount": 0.5, "unit": "cup" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["fresh"],
+          "preparation": ["coarsely torn"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "mint",
+          "measurement": { "amount": 0.5, "unit": "cup" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["fresh"],
+          "preparation": ["coarsely torn"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "flat-leaf parsley",
+          "measurement": { "amount": 0.5, "unit": "cup" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["fresh"],
+          "preparation": ["coarsely torn"],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "watercress",
+          "measurement": { "amount": 0.25, "unit": "cup" },
+          "variety": null,
+          "part": "sprigs",
+          "intrinsics": ["fresh"],
+          "preparation": [],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "capers",
+          "measurement": { "amount": 1, "unit": "tbsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["salted", "rinsed"],
+          "preparation": [],
+          "category": "Canned & Jarred",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "parmesan",
+          "measurement": { "amount": 20, "unit": "g" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["finely grated"],
+          "preparation": [],
+          "category": "Dairy & Eggs",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "extra-virgin olive oil",
+          "measurement": { "amount": 80, "unit": "mL" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "chilli oil",
+          "measurement": { "amount": 2, "unit": "tsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "lemon juice",
+          "measurement": { "amount": 2, "unit": "tbsp" },
+          "variety": null,
+          "part": null,
+          "intrinsics": ["fresh"],
+          "preparation": [],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Blanch peas in boiling salted water for 1-2 minutes until tender, refresh under cold water and drain."
+        },
+        {
+          "instruction": "Combine peas with cabbage, fennel, onion, radish, basil, mint, parsley, watercress, capers, and parmesan in a large bowl. Just before serving, add the olive oil, chilli oil, and lemon juice, season to taste, and toss lightly to combine."
+        }
+      ],
+      "window": "2 hours"
+    },
+    {
+      "name": "pork cutlets",
+      "measurement": { "amount": 4, "unit": null },
+      "variety": "free-range",
+      "part": null,
+      "intrinsics": ["about 280g each", "trimmed", "bones cleaned"],
+      "preparation": ["flattened to 1cm thick"],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "panko crumbs",
+      "measurement": { "amount": 160, "unit": "g" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "parmesan",
+      "measurement": { "amount": 20, "unit": "g" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["finely grated"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "flat-leaf parsley",
+      "measurement": { "amount": 2, "unit": "tbsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "lemon",
+      "measurement": { "amount": 1, "unit": null },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["finely grated rind only"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "eggs",
+      "measurement": { "amount": 3, "unit": null },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["lightly beaten with milk"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "milk",
+      "measurement": { "amount": 125, "unit": "mL" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "plain flour",
+      "measurement": { "amount": 1, "unit": "cup" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["seasoned with salt and pepper"],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "vegetable oil",
+      "measurement": { "amount": 125, "unit": "mL" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "unsalted butter",
+      "measurement": { "amount": 80, "unit": "g" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["coarsely chopped"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "lemon",
+      "measurement": { "amount": 1, "unit": null },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["cut into wedges", "to serve"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "Dijon mustard",
+      "measurement": { "amount": 1, "unit": null },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["to serve"],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Working with one pork cutlet at a time, place between two pieces of plastic wrap and flatten with a meat mallet until about 1cm thick. Repeat with remaining cutlets."
+    },
+    {
+      "instruction": "Combine panko crumbs, parmesan, parsley, and lemon rind in a bowl, season to taste and toss to combine. Lightly beat eggs and milk together in a separate large bowl."
+    },
+    {
+      "instruction": "Lightly dust each cutlet in seasoned flour, coat with the egg wash, then press into the breadcrumb mixture, shaking off excess between each stage. Place on a baking tray and refrigerate until required."
+    },
+    {
+      "instruction": "Prepare the Italian coleslaw: blanch peas in boiling salted water for 1-2 minutes until tender, refresh and drain. Combine peas with cabbage, fennel, onion, radishes, basil, mint, parsley, watercress, capers and parmesan in a large bowl. Set aside."
+    },
+    {
+      "instruction": "Preheat oven to 160°C. Heat half the vegetable oil in a large frying pan over medium heat, add half the butter and heat until foaming. Cook cutlets in batches, turning once, until golden and cooked through (4-5 minutes each side). Drain on paper towel, then transfer to a lined baking tray and place in the oven to keep warm. Wipe the pan and repeat with remaining oil, butter and cutlets."
+    },
+    {
+      "instruction": "Just before serving, dress the coleslaw with extra-virgin olive oil, chilli oil, and lemon juice. Season to taste and toss lightly."
+    },
+    {
+      "instruction": "Season the cutlets to taste and serve hot with the Italian coleslaw, lemon wedges and Dijon mustard."
+    }
+  ]
+}

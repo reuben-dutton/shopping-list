@@ -78,6 +78,18 @@ class Ingredient(pydantic.BaseModel):
     def full_measurement(self) -> str:
         return repr(self.measurement)
 
+    @property
+    def prep_notes(self) -> str:
+        if len(self.preparation) == 0:
+            return ""
+        if len(self.preparation) == 1:
+            return f"({self.preparation[0]})"
+        if len(self.preparation) == 2:
+            return f"({self.preparation[0]} and {self.preparation[1]})"
+        if len(self.preparation) == 3:
+            return f"({self.preparation[0]}, {self.preparation[1]} and {self.preparation[2]})"
+        raise Exception('Too many preparation notes')
+
 
 # a single instruction for a recipe
 class Step(pydantic.BaseModel):

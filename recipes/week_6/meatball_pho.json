@@ -1,0 +1,128 @@
+{
+  "name": "Meatball Pho",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/meatball-pho-recipe/3c8h258k",
+  "ingredients": [
+    {
+      "name": "sesame oil",
+      "measurement": { "amount": 2, "unit": "tsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "beef meatballs",
+      "measurement": { "amount": 420, "unit": "g" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["Coles Graze Grass Fed"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "capsicum",
+      "measurement": { "amount": 1, "unit": null },
+      "variety": "red",
+      "part": null,
+      "intrinsics": ["seeded"],
+      "preparation": ["thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "chicken stock",
+      "measurement": { "amount": 500, "unit": "mL" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["salt-reduced"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "fish sauce",
+      "measurement": { "amount": 1.5, "unit": "tbsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "soy sauce",
+      "measurement": { "amount": 1.5, "unit": "tbsp" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["salt-reduced"],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "ginger",
+      "measurement": { "amount": 1, "unit": "piece" },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["5cm piece", "peeled"],
+      "preparation": ["thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "star anise",
+      "measurement": { "amount": 4, "unit": null },
+      "variety": null,
+      "part": null,
+      "intrinsics": ["whole"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "rice vermicelli noodles",
+      "measurement": { "amount": 400, "unit": "g" },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "pak choy",
+      "measurement": { "amount": 2, "unit": null },
+      "variety": null,
+      "part": null,
+      "intrinsics": [],
+      "preparation": ["halved"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Heat the sesame oil in a large saucepan over medium-high heat. Add the meatballs and cook, turning, for 5 minutes or until browned. Transfer to a heatproof bowl."
+    },
+    {
+      "instruction": "Add the capsicum to the pan and cook for 1 minute or until just tender. Add the stock, fish sauce, soy sauce, ginger, star anise and 1 litre of water. Bring to the boil."
+    },
+    {
+      "instruction": "Return the meatballs to the pan along with the noodles. Cook for 2 minutes or until the noodles are tender and meatballs are cooked through. Add the pak choy and simmer for 1 minute or until just wilted. Season and divide among serving bowls."
+    }
+  ]
+}

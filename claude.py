@@ -91,7 +91,7 @@ def add_subrecipe_section(story: list, subrecipe: models.SubRecipe, number: int,
     ingredient_items = []
     for ingredient in subrecipe.ingredients:
         optional_suffix = " <i>(optional)</i>" if ingredient.optional else ""
-        text = f"{ingredient.full_measurement} {ingredient.full_name}{optional_suffix}"
+        text = f"{ingredient.full_measurement} {ingredient.full_name}{optional_suffix} {ingredient.prep_notes}"
         item = Paragraph(text, styles['ingredient_style'])
         ingredient_items.append(ListItem(item, bulletColor=colors.HexColor('#E74C3C')))
 
@@ -135,7 +135,7 @@ def add_main_recipe_section(
     for ingredient in recipe.ingredients:
         if isinstance(ingredient, models.Ingredient):
             optional_suffix = " <i>(optional)</i>" if ingredient.optional else ""
-            text = f"{ingredient.full_measurement} {ingredient.full_name}{optional_suffix}"
+            text = f"{ingredient.full_measurement} {ingredient.full_name}{optional_suffix} {ingredient.prep_notes}"
             item = Paragraph(text, styles['ingredient_style'])
             ingredient_items.append(ListItem(item, bulletColor=colors.HexColor('#E74C3C')))
         elif isinstance(ingredient, models.SubRecipe):
@@ -284,8 +284,8 @@ def create_recipe_pdf(recipe: models.Recipe, output_path: str):
 
 def main():
     """Main function to demonstrate usage."""
-    recipe_dir = r'M:\dev\shopping-list\recipes'
-    pdf_dir = r'M:\dev\shopping-list\pdfs'
+    recipe_dir = r'M:\dev\shopping-list\recipes\week_6'
+    pdf_dir = r'M:\dev\shopping-list\pdfs\week_6'
     for filename in os.listdir(recipe_dir):
         if not filename.endswith('.json'):
             continue
