@@ -31,21 +31,33 @@ ROOT_PATH = os.environ.get("ROOT_PATH", "").rstrip("/")
 # Helpers
 # ──────────────────────────────────────────────────────────────────────────────
 
-def _all_recipes() -> list[tuple[str, str]]:
-    """Return [(filename_stem, recipe_name), ...] sorted by name."""
-    results = []
+def _all_recipes_by_week() -> dict[str, list[tuple[str, str]]]:
+    """Return {week_folder: [(relative_stem, recipe_name), ...]} sorted by week then name.
+
+    Recipes directly in RECIPES_DIR (no subdirectory) are grouped under the
+    empty-string key "" and shown first.
+    relative_stem is the path relative to RECIPES_DIR without extension,
+    e.g. "week_4/beef_with_broccoli".  This is used as the form value so that
+    _load_selected can reconstruct the full path unambiguously.
+    """
+    groups: dict[str, list[tuple[str, str]]] = {}
     for path in sorted(RECIPES_DIR.glob("**/*.json")):
         try:
             recipe = load_recipe(path)
-            results.append((path.stem, recipe.name))
         except Exception:
-            pass
-    return results
+            continue
+        relative = path.relative_to(RECIPES_DIR)
+        stem = str(relative.with_suffix(""))   # e.g. "week_4/beef_with_broccoli"
+        week = relative.parts[0] if len(relative.parts) > 1 else ""
+        groups.setdefault(week, []).append((stem, recipe.name))
+    # Sort weeks naturally; un-grouped recipes ("") go first
+    return dict(sorted(groups.items(), key=lambda kv: (kv[0] != "", kv[0])))
 
 
 def _load_selected(stems: list[str]) -> list[tuple[str, object]]:
     recipes = []
     for stem in stems:
+        # stem may be "week_4/beef_with_broccoli" or plain "beef_with_broccoli"
         path = RECIPES_DIR / f"{stem}.json"
         if path.exists():
             try:
@@ -105,6 +117,22 @@ _BASE = """<!doctype html>
                 cursor: pointer; text-decoration: underline; padding: 0; font-weight: 400; }}
   .notice {{ font-size: .8rem; color: #888; margin: 0 0 1rem; }}
   .inline-actions {{ display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.25rem; }}
+  /* week collapsible sections */
+  details.week {{ border: 1px solid #dde4f0; border-radius: 8px; margin-bottom: .75rem; }}
+  details.week[open] {{ box-shadow: 0 1px 4px #0001; }}
+  details.week summary {{
+    display: flex; align-items: center; justify-content: space-between;
+    padding: .6rem .9rem; cursor: pointer; user-select: none;
+    font-weight: 700; font-size: .9rem; color: #1c3557;
+    list-style: none; gap: .5rem;
+  }}
+  details.week summary::-webkit-details-marker {{ display: none; }}
+  details.week summary .week-chevron {{
+    font-size: .7rem; color: #3b7dd8; transition: transform .2s; flex-shrink: 0;
+  }}
+  details.week[open] summary .week-chevron {{ transform: rotate(90deg); }}
+  details.week summary .week-actions {{ display: flex; gap: .5rem; margin-left: auto; padding-right: .5rem; }}
+  .week-recipes {{ padding: .25rem .75rem .75rem; display: flex; flex-direction: column; gap: .1rem; }}
 </style>
 </head>
 <body>
@@ -114,6 +142,9 @@ _BASE = """<!doctype html>
 <script>
 function toggleAll(form, checked) {{
   form.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = checked);
+}}
+function toggleWeek(weekId, checked) {{
+  document.getElementById(weekId).querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = checked);
 }}
 </script>
 </body>
@@ -133,20 +164,36 @@ def _page(body: str) -> Response:
 
 @get("/")
 async def index(request: Request) -> Response:
-    all_recipes = _all_recipes()
+    by_week = _all_recipes_by_week()
 
-    if not all_recipes:
+    if not by_week:
         body = "<p>No recipe JSON files found in <code>./recipes/</code>.</p>"
         return _page(body)
 
-    checkboxes = "".join(
-        f'<label><input type="checkbox" name="recipe" value="{stem}" checked> {name}</label>'
-        for stem, name in all_recipes
-    )
+    sections_html = ""
+    for week, recipes in by_week.items():
+        week_id = f"week-{week}" if week else "week-ungrouped"
+        heading = week if week else "Other"
+        checkboxes = "".join(
+            f'<label><input type="checkbox" name="recipe" value="{stem}" checked> {name}</label>'
+            for stem, name in recipes
+        )
+        sections_html += f"""
+<details class="week" open id="{week_id}">
+  <summary>
+    <span>{heading}</span>
+    <span class="week-actions">
+      <button class="btn-ghost" type="button" onclick="event.preventDefault();toggleWeek('{week_id}', true)">all</button>
+      <button class="btn-ghost" type="button" onclick="event.preventDefault();toggleWeek('{week_id}', false)">none</button>
+    </span>
+    <span class="week-chevron">&#9654;</span>
+  </summary>
+  <div class="week-recipes">{checkboxes}</div>
+</details>"""
 
     body = f"""
 <form method="POST" action="{ROOT_PATH}/ingredients" id="main-form">
-  <div style="display:flex;flex-direction:column;gap:.25rem">{checkboxes}</div>
+  {sections_html}
 </form>
 <div class="toolbar">
   <button class="btn-ghost" type="button" onclick="toggleAll(document.getElementById('main-form'), true)">Select all</button>
