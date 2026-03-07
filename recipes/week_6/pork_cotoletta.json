@@ -227,7 +227,7 @@
       "staple": false
     },
     {
-      "name": "eggs",
+      "name": "egg",
       "measurement": { "amount": 3, "unit": null },
       "variety": null,
       "part": null,

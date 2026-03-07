@@ -127,9 +127,9 @@
     {
       "name": "onion",
       "measurement": { "amount": 1, "unit": null },
-      "variety": "small",
+      "variety": null,
       "part": null,
-      "intrinsics": [],
+      "intrinsics": ["small"],
       "preparation": ["peeled", "thinly sliced"],
       "category": "Produce",
       "optional": false,
