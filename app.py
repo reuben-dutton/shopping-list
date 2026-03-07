@@ -238,32 +238,57 @@ async def ingredients(request: Request) -> Response:
         rows_html += f'<tr class="cat-head"><td colspan="4"><span>{cat_label.upper()}</span></td></tr>\n'
         for item in shopping[cat_label]:
             name_cls = "optional" if item["optional"] else ("staple" if item["staple"] else "")
-            name_text = item["name"]
             if item["optional"]:
-                name_text += " <em>(optional)</em>"
+                name_text_prefix = ""
+                name_text_suffix = " <em>(optional)</em>"
             elif item["staple"]:
-                name_text += " <em>(staple)</em>"
+                name_text_prefix = ""
+                name_text_suffix = " <em>(staple)</em>"
+            else:
+                name_text_prefix = ""
+                name_text_suffix = ""
+            name_text = item["name"] + name_text_suffix
 
             row_cls = "ing-row alt" if alt else "ing-row"
             alt = not alt
 
+            lines = item["lines"]
+            intrinsics_vary = any(ln.get("name_label") for ln in lines)
             for i, ln in enumerate(item["lines"]):
                 key = f"{cat_label}|||{item['name']}|||{i}"
-                # Name cell only on first line of each ingredient
-                if i == 0:
-                    rowspan = len(item["lines"])
+                # Name cell: use rowspan when all lines share the same name;
+                # otherwise give each line its own td showing its specific label.
+                if intrinsics_vary:
+                    label = ln.get("name_label") or item["name"]
+                    name_cell = (
+                        f'<td class="{name_cls}" '
+                        f'style="border-right:1px solid #e8eef8">{label}{name_text_suffix}</td>'
+                    )
+                elif i == 0:
+                    rowspan = len(lines)
                     name_cell = (
                         f'<td rowspan="{rowspan}" class="{name_cls}" '
                         f'style="border-right:1px solid #e8eef8">{name_text}</td>'
                     )
                 else:
                     name_cell = ""
+                # Part (when varying across recipes) shown as muted annotation in recipe column
+                part = ln.get("part")
+                if part:
+                    recipe_cell = (
+                        f'<td class="recipe">'
+                        f'<span style="display:block;color:#aaa;font-style:italic;font-size:.7rem">{part}</span>'
+                        f'{ln["recipe_name"]}'
+                        f'</td>'
+                    )
+                else:
+                    recipe_cell = f'<td class="recipe">{ln["recipe_name"]}</td>'
                 rows_html += (
                     f'<tr class="{row_cls}">'
                     f'<td style="width:32px"><input type="checkbox" name="item" value="{key}" checked></td>'
                     f'{name_cell}'
                     f'<td class="qty">{ln["quantity"]}</td>'
-                    f'<td class="recipe">{ln["recipe_name"]}</td>'
+                    f'{recipe_cell}'
                     f'</tr>\n'
                 )
 

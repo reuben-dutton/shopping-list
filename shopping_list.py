@@ -204,6 +204,7 @@ def aggregate(
                     "_meta": {
                         "name": ing.name,
                         "variety": ing.variety,
+                        "part": ing.part,
                         "optional": True,
                         "staple": True,
                         "intrinsics": [],
@@ -218,6 +219,11 @@ def aggregate(
                 meta["staple"] = False
             if meta["variety"] is None and ing.variety is not None:
                 meta["variety"] = ing.variety
+            # If parts differ across recipes, mark as mixed (None sentinel means "vary per line")
+            if "part" not in meta:
+                meta["part"] = ing.part
+            elif meta["part"] != ing.part:
+                meta["part"] = None
             for intrinsic in ing.intrinsics:
                 if intrinsic not in meta["intrinsics"]:
                     meta["intrinsics"].append(intrinsic)
@@ -226,6 +232,9 @@ def aggregate(
                 per_recipe[ing_key][recipe_name] = {}
             unit_bucket = per_recipe[ing_key][recipe_name]
             unit_bucket[norm_unit] = unit_bucket.get(norm_unit, 0.0) + norm_amount
+            # Track part and intrinsics per recipe for per-line display when they differ
+            unit_bucket["_part"] = ing.part
+            unit_bucket["_intrinsics"] = ing.intrinsics
 
     categories: dict[str, list] = defaultdict(list)
 
@@ -234,27 +243,81 @@ def aggregate(
         recipe_names_present = [r for r in data if r != "_meta"]
         recipe_names_sorted = sorted(recipe_names_present, key=lambda r: recipe_index[r])
 
-        # Build display name: "intrinsic1, intrinsic2 variety name"
-        intrinsics_prefix = ", ".join(meta["intrinsics"])
-        name_parts = [p for p in [intrinsics_prefix or None, meta["variety"], meta["name"]] if p]
+        # Build display name: "intrinsic1, intrinsic2 variety name [part]"
+        # Both part and intrinsics are included in the shared display name only
+        # when all recipes agree on the same value. If they differ across recipes,
+        # they are omitted from the display name and attached per-line instead.
+        _SKIP = {"_part", "_intrinsics"}
+        shared_part = meta.get("part")  # None means "varies per recipe"
+
+        # Check whether intrinsics are uniform across all recipes
+        per_recipe_intrinsics = [
+            tuple(sorted(data[r].get("_intrinsics") or []))
+            for r in recipe_names_sorted
+        ]
+        all_same_intrinsics = len(set(per_recipe_intrinsics)) <= 1
+        if all_same_intrinsics:
+            shared_intrinsics = ", ".join(meta["intrinsics"])
+        else:
+            shared_intrinsics = ""  # will be shown per-line
+
+        name_parts = [p for p in [shared_intrinsics or None, meta["variety"], meta["name"]] if p]
+        if shared_part:
+            name_parts.append(shared_part)
         display_name = " ".join(name_parts)
 
-        # Build quantity lines
+        parts_vary = shared_part is None and any(
+            data[r].get("_part") for r in recipe_names_sorted
+        )
+        intrinsics_vary = not all_same_intrinsics
+
+        # Build quantity lines.
+        # Each line carries:
+        #   "quantity"    – formatted amount + unit
+        #   "recipe_name" – recipe the quantity comes from
+        #   "part"        – per-line part label (only when parts vary; shown in recipe col)
+        #   "name_label"  – the name to show in the name column for this line.
+        #                   Normally None (the shared display_name is used).
+        #                   When intrinsics vary, each line gets its own label:
+        #                   "intrinsics  name" so the ingredient name is repeated
+        #                   with its specific intrinsics alongside it.
+        def _name_label(recipe_name: str) -> str | None:
+            if not intrinsics_vary:
+                return None
+            raw = data[recipe_name].get("_intrinsics") or []
+            prefix = ", ".join(raw)
+            base_parts = [p for p in [prefix or None, meta["variety"], meta["name"]] if p]
+            if shared_part:
+                base_parts.append(shared_part)
+            return " ".join(base_parts)
+
         if len(recipe_names_sorted) == 1:
             recipe_name = recipe_names_sorted[0]
             unit_buckets = data[recipe_name]
             lines = [
-                {"quantity": _format_quantity(amt, unit), "recipe_name": recipe_name}
+                {
+                    "quantity": _format_quantity(amt, unit),
+                    "recipe_name": recipe_name,
+                    "part": None,       # already in display_name for single recipe
+                    "name_label": None, # already in display_name for single recipe
+                }
                 for unit, amt in unit_buckets.items()
+                if unit not in _SKIP
             ]
         else:
             lines = []
             for recipe_name in recipe_names_sorted:
                 unit_buckets = data[recipe_name]
+                line_part = unit_buckets.get("_part") if parts_vary else None
+                label = _name_label(recipe_name)
                 for unit, amt in unit_buckets.items():
+                    if unit in _SKIP:
+                        continue
                     lines.append({
                         "quantity": _format_quantity(amt, unit),
                         "recipe_name": recipe_name,
+                        "part": line_part,
+                        "name_label": label,
                     })
 
         category_label = meta["category"].value
@@ -316,6 +379,7 @@ def build_pdf(
     s_qty         = style("Qty",        fontSize=8,  textColor=BLUE,  fontName="Helvetica-Bold",   leading=11)
     s_recipe_one  = style("RecipeOne",  fontSize=7,  textColor=MID,   fontName="Helvetica",        leading=10)
     s_recipe_item = style("RecipeItem", fontSize=7,  textColor=MID,   fontName="Helvetica",        leading=10)
+    s_part        = style("Part",       fontSize=7,  textColor=GREY,  fontName="Helvetica-Oblique", leading=9)
     s_footer      = style("Footer",     fontSize=7,  textColor=LIGHT, fontName="Helvetica",        alignment=TA_CENTER)
 
     # qty | name | recipe(s)
@@ -331,15 +395,45 @@ def build_pdf(
         """
         Returns (qty_cell, recipe_cell) — each is either a single Paragraph
         (one line) or a list of Paragraphs (multiple lines, stacked).
+        When a line carries a per-line part (parts vary across recipes), the
+        recipe cell shows the part in grey italic above the recipe name.
         """
         if len(lines) == 1:
+            ln = lines[0]
+            recipe_paras = []
+            if ln.get("part"):
+                recipe_paras.append(Paragraph(ln["part"], s_part))
+            recipe_paras.append(Paragraph(ln["recipe_name"], s_recipe_one))
             return (
-                Paragraph(lines[0]["quantity"], s_qty),
-                Paragraph(lines[0]["recipe_name"], s_recipe_one),
+                Paragraph(ln["quantity"], s_qty),
+                recipe_paras if len(recipe_paras) > 1 else recipe_paras[0],
             )
-        qty_paras    = [Paragraph(ln["quantity"],    s_qty)        for ln in lines]
-        recipe_paras = [Paragraph(ln["recipe_name"], s_recipe_item) for ln in lines]
+        qty_paras = []
+        recipe_paras = []
+        for ln in lines:
+            qty_paras.append(Paragraph(ln["quantity"], s_qty))
+            if ln.get("part"):
+                recipe_paras.append(Paragraph(ln["part"], s_part))
+                recipe_paras.append(Paragraph(ln["recipe_name"], s_recipe_item))
+                qty_paras.append(Paragraph("", s_qty))
+            else:
+                recipe_paras.append(Paragraph(ln["recipe_name"], s_recipe_item))
         return qty_paras, recipe_paras
+
+    def name_cell(item: dict, prefix: str, n_style) -> list | Paragraph:
+        """
+        Returns the name column content — a single Paragraph when all lines share
+        the same name, or a list of Paragraphs (one per line) when intrinsics vary
+        and each line has its own name_label.
+        """
+        lines = item["lines"]
+        # If any line has a name_label, each line needs its own name paragraph
+        if any(ln.get("name_label") for ln in lines):
+            return [
+                Paragraph(prefix + (ln["name_label"] or item["name"]), n_style)
+                for ln in lines
+            ]
+        return Paragraph(prefix + item["name"], n_style)
 
     for category, items in shopping.items():
         story.append(Paragraph(category.upper(), s_section))
@@ -358,12 +452,11 @@ def build_pdf(
                 prefix = ""
                 n_style = s_item
 
-            name_text = prefix + item["name"]
             qty_cell, recipe_cell = qty_recipe_cell(item["lines"])
 
             rows.append([
                 qty_cell,
-                Paragraph(name_text, n_style),
+                name_cell(item, prefix, n_style),
                 recipe_cell,
             ])
 
