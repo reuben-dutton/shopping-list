@@ -1,0 +1,167 @@
+{
+  "name": "Cauliflower, Paneer & Pea Curry",
+  "source": "BBC Good Food",
+  "url": "https://www.bbcgoodfood.com/recipes/cauliflower-paneer-pea-curry",
+  "ingredients": [
+    {
+      "measurement": { "unit": "tbsp", "amount": 2 },
+      "name": "sunflower oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "g", "amount": 225 },
+      "name": "paneer",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["cut into cubes"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "cauliflower",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["broken into small florets"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "onion",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["thickly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "clove", "amount": 2 },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["crushed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "amount": 2 },
+      "name": "tikka masala paste",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "amount": 500 },
+      "name": "passata",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "amount": 200 },
+      "name": "peas",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["frozen"],
+      "preparation": [],
+      "category": "Frozen",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "coriander",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["roughly chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "basmati rice",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["steamed"],
+      "category": "Pasta & Grains",
+      "optional": true,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "naan bread",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Bakery",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "raita",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "chutney",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": true,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Heat 1 tbsp oil in a large non-stick frying pan. Add the paneer and fry gently until crisp. Remove with a slotted spoon and set aside."
+    },
+    {
+      "instruction": "Add the remaining oil and the cauliflower to the pan, and cook for 10 minutes until browned. Add the onions (and a little more oil if needed) and cook for a further 5 minutes until softened."
+    },
+    {
+      "instruction": "Stir in the garlic and curry paste, then pour in the passata and 250ml water. Season, bring to a simmer, then cover and cook for 18-20 minutes or until the cauliflower is just tender."
+    },
+    {
+      "instruction": "Add the frozen peas and crispy paneer to the pan and cook for a further 5 minutes."
+    },
+    {
+      "instruction": "Stir through most of the coriander and garnish with the rest. Serve with basmati rice or naan bread, and raita or chutney."
+    }
+  ]
+}

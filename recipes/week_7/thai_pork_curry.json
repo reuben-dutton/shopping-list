@@ -1,0 +1,222 @@
+{
+  "name": "Slow Cooker Thai Pork Curry",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/slow-cooker-thai-pork-curry/yceps7sm",
+  "ingredients": [
+    {
+      "measurement": { "unit": "kg", "amount": 1.8 },
+      "name": "pork",
+      "part": "leg",
+      "variety": null,
+      "intrinsics": ["boneless", "rind removed"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tsp", "amount": 2 },
+      "name": "peanut oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "g", "amount": 40 },
+      "name": "shiitake mushrooms",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried", "sliced"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "piece", "amount": 2 },
+      "name": "lemongrass",
+      "part": "stalk",
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["halved"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "ginger",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh", "10cm piece"],
+      "preparation": ["sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "clove", "amount": 2 },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["bruised"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "star anise",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "amount": 0.5 },
+      "name": "Thai red curry paste",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tbsp", "amount": 2 },
+      "name": "tamarind paste",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tbsp", "amount": 2 },
+      "name": "brown sugar",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tsp", "amount": 1 },
+      "name": "chicken stock powder",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "mL", "amount": 400 },
+      "name": "coconut milk",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["canned"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "bunch", "amount": 2 },
+      "name": "gai larn",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["cut into 10cm lengths"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "bunch", "amount": 2 },
+      "name": "broccolini",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["trimmed"],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "coriander",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "long red chilli",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["halved"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "fried shallots",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "jasmine rice",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["steamed"],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Remove string from pork. Remove and discard rind. Heat oil in a large frying pan over medium-high heat. Add pork and cook, turning occasionally, for 8 minutes or until browned all over."
+    },
+    {
+      "instruction": "Meanwhile, place mushrooms, lemongrass, ginger, garlic and star anise in the base of a 5.5-litre slow cooker. Whisk curry paste, tamarind, sugar, stock powder and coconut milk together in a bowl."
+    },
+    {
+      "instruction": "Place pork in slow cooker. Pour over coconut mixture. Cover and cook on HIGH for 4 hours 30 minutes or until pork is tender."
+    },
+    {
+      "instruction": "Cook gai larn and broccolini in a saucepan of boiling salted water for 2 minutes or until just tender. Drain."
+    },
+    {
+      "instruction": "Transfer pork to a serving platter. Arrange vegetables around pork. Drizzle with sauce. Top with coriander sprigs, halved chilli and fried shallots. Serve with steamed jasmine rice."
+    }
+  ]
+}

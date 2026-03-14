@@ -1,0 +1,178 @@
+{
+  "name": "Char Siu Pork Stir-fry with Wombok & Cashews",
+  "source": "Taste.com.au",
+  "url": null,
+  "ingredients": [
+    {
+      "name": "Marinade",
+      "window": "none",
+      "ingredients": [
+          {
+            "measurement": { "amount": 2 },
+            "name": "chilli",
+            "variety": "long red",
+            "part": null,
+            "intrinsics": ["seeded"],
+            "preparation": ["finely chopped"],
+            "category": "Produce",
+            "optional": false,
+            "staple": false
+          },
+          {
+            "measurement": { "unit": "clove", "amount": 2 },
+            "name": "garlic",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": ["crushed"],
+            "category": "Produce",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "tbsp", "amount": 1 },
+            "name": "white wine vinegar",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Oils, Vinegars & Wine",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "tbsp", "amount": 2 },
+            "name": "caster sugar",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Dry Goods & Spices",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "mL", "amount": 60 },
+            "name": "char siu sauce",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Condiments & Sauces",
+            "optional": false,
+            "staple": false
+          },
+          {
+            "measurement": { "unit": "mL", "amount": 60 },
+            "name": "hoisin sauce",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Condiments & Sauces",
+            "optional": true,
+            "staple": false
+          }
+        ],
+      "steps": [
+          {
+            "instruction": "Place chillies, garlic, vinegar, sugar and char siu sauce in a bowl and stir to combine."
+          },
+          {
+            "instruction": "Add pork and stir to coat. Set aside."
+          }
+        ]
+    },
+    {
+      "measurement": { "amount": 4 },
+      "name": "pork",
+      "part": "loin steak",
+      "variety": null,
+      "intrinsics": ["thinly sliced"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.5 },
+      "name": "Chinese cabbage",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["base trimmed", "outer leaves removed", "sliced widthwise into 3cm-thick pieces"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "tbsp", "amount": 2.5 },
+      "name": "vegetable oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "g", "amount": 200 },
+      "name": "green beans",
+      "part": null,
+      "variety": "small",
+      "intrinsics": ["trimmed"],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "amount": 125 },
+      "name": "cashews",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["roasted"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "coriander",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "white rice",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["steamed"],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Heat a wok over high heat. Drain pork, reserving the marinade. Add 2 tsp oil and half the pork and cook for 30 seconds each side or until browned and almost cooked through. Transfer to a plate and wipe the wok clean with paper towel. Repeat with another 2 tsp oil and the remaining pork."
+    },
+    {
+      "instruction": "Heat the remaining 1½ tbsp oil in the wok over high heat. Add beans and stir-fry for 1 minute, then add the reserved marinade and bring to a simmer."
+    },
+    {
+      "instruction": "Add cabbage and cook, tossing, for 2 minutes or until tender but still crisp. Return pork to wok, add cashews and stir-fry for a further minute until warmed through."
+    },
+    {
+      "instruction": "Scatter with coriander leaves and serve immediately with steamed rice."
+    }
+  ]
+}

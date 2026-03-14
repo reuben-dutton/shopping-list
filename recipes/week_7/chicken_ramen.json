@@ -1,0 +1,187 @@
+{
+  "name": "Simple Homemade Chicken Ramen",
+  "source": "Fork Knife Swoon",
+  "url": "https://www.forkknifeswoon.com/simple-homemade-chicken-ramen/",
+  "ingredients": [
+    {
+        "name": "Pan-Roasted Chicken",
+        "window": "none",
+        "ingredients": [
+          {
+            "measurement": { "amount": 2 },
+            "name": "chicken breast",
+            "part": null,
+            "variety": null,
+            "intrinsics": ["boneless", "skin-on"],
+            "preparation": [],
+            "category": "Meat & Seafood",
+            "optional": false,
+            "staple": false
+          },
+          {
+            "measurement": { "unit": "tbsp", "amount": 1 },
+            "name": "butter",
+            "part": null,
+            "variety": null,
+            "intrinsics": ["unsalted"],
+            "preparation": [],
+            "category": "Dairy & Eggs",
+            "optional": false,
+            "staple": true
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Preheat oven to 375°F (190°C). Season chicken generously with salt and pepper."
+          },
+          {
+            "instruction": "Melt butter in a large oven-safe skillet over medium heat. Add chicken skin-side down and cook until the skin is golden brown and releases easily, about 5-7 minutes. Flip and cook for another 4-5 minutes until golden."
+          },
+          {
+            "instruction": "Transfer skillet to the oven and roast for 15-20 minutes until cooked through. Remove, transfer chicken to a plate and cover with foil until ready to serve."
+          }
+        ]
+    },
+    {
+      "measurement": { "unit": "tsp", "amount": 2 },
+      "name": "sesame oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tsp", "amount": 2 },
+      "name": "ginger",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["minced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "amount": 1 },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["minced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "amount": 3 },
+      "name": "soy sauce",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["low-sodium"],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "amount": 2 },
+      "name": "mirin",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "cup", "amount": 4 },
+      "name": "chicken stock",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["rich"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "oz", "amount": 1 },
+      "name": "shiitake mushrooms",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "egg",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["large"],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "amount": 0.5 },
+      "name": "spring onion",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "oz", "amount": 6 },
+      "name": "ramen noodles",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "jalapeño",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["sliced"],
+      "category": "Produce",
+      "optional": true,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Make the pan-roasted chicken per the sub-recipe. Once cooked, slice thinly and set aside, covered with foil to keep warm."
+    },
+    {
+      "instruction": "Heat oil in a large pot over medium heat until shimmering. Add garlic and ginger and cook for a few minutes until softened. Add soy sauce and mirin, stir to combine and cook for another minute."
+    },
+    {
+      "instruction": "Add the chicken stock, cover and bring to a boil. Remove the lid and simmer uncovered for 5 minutes, then add the dried mushrooms. Simmer gently for a further 10 minutes. Season with salt to taste."
+    },
+    {
+      "instruction": "Bring a separate pot of water to the boil. Gently lower in the cold eggs and simmer for 7 minutes (slightly runny yolk) or 8 minutes (soft but set yolk). Transfer to an ice bath for at least 5 minutes, then peel and halve lengthwise."
+    },
+    {
+      "instruction": "Add the ramen noodles to the boiling egg water and cook for 2-3 minutes until soft. Divide noodles into two large bowls."
+    },
+    {
+      "instruction": "Ladle broth over noodles. Top with sliced chicken, spring onion, soft-boiled egg and jalapeño if using. Serve immediately."
+    }
+  ]
+}

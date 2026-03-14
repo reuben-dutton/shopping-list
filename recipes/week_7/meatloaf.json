@@ -1,0 +1,222 @@
+{
+  "name": "Meatloaf with BBQ Sauce",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/meatloaf-bbq-sauce/ed83e8cc-2cb4-41de-b678-5d526f6db18a",
+  "ingredients": [
+    {
+      "measurement": { "unit": "g", "amount": 500 },
+      "name": "sausage mince",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "g", "amount": 500 },
+      "name": "beef mince",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "unit": "cup", "amount": 1 },
+      "name": "breadcrumbs",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "onion",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tsp", "amount": 2 },
+      "name": "curry powder",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "tbsp", "amount": 1 },
+      "name": "parsley",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "egg",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["lightly beaten"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "amount": 0.5 },
+      "name": "milk",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "unit": "cup", "amount": 0.5 },
+      "name": "water",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Other",
+      "optional": false,
+      "staple": true
+    },
+    {
+        "name": "BBQ Sauce",
+        "window": "none",
+        "ingredients": [
+          {
+            "measurement": { "unit": "cup", "amount": 0.5 },
+            "name": "water",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Other",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "cup", "amount": 0.5 },
+            "name": "tomato sauce",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Condiments & Sauces",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "cup", "amount": 0.25 },
+            "name": "Worcestershire sauce",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Condiments & Sauces",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "tbsp", "amount": 2 },
+            "name": "white vinegar",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Oils, Vinegars & Wine",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "cup", "amount": 0.25 },
+            "name": "brown sugar",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Dry Goods & Spices",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "tsp", "amount": 1 },
+            "name": "instant coffee powder",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Dry Goods & Spices",
+            "optional": false,
+            "staple": false
+          },
+          {
+            "measurement": { "unit": "g", "amount": 30 },
+            "name": "butter",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Dairy & Eggs",
+            "optional": false,
+            "staple": true
+          },
+          {
+            "measurement": { "unit": "tbsp", "amount": 2 },
+            "name": "lemon juice",
+            "part": null,
+            "variety": null,
+            "intrinsics": [],
+            "preparation": [],
+            "category": "Produce",
+            "optional": false,
+            "staple": true
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Combine all ingredients in a saucepan. Bring slowly to the boil, then reduce heat and simmer for 5 minutes."
+          }
+        ]
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Preheat oven to 180°C."
+    },
+    {
+      "instruction": "Combine sausage mince, beef mince, breadcrumbs, onion, curry powder, salt, pepper, parsley and egg in a bowl. Mix with clean hands until smooth. Add milk and water as needed to bring the mixture together."
+    },
+    {
+      "instruction": "Shape meat mixture into a loaf and place in a greased baking dish (or press into a loaf tin). Bake for 30 minutes."
+    },
+    {
+      "instruction": "Meanwhile, make the BBQ sauce: combine all sauce ingredients in a saucepan, bring slowly to the boil, then reduce heat and simmer for 5 minutes."
+    },
+    {
+      "instruction": "Remove meatloaf from oven and carefully pour off any surplus fat. Pour BBQ sauce over meatloaf, return to oven and bake for a further 45 minutes, basting frequently with sauce."
+    }
+  ]
+}
