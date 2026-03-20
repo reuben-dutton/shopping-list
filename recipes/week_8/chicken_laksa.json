@@ -1,0 +1,203 @@
+{
+  "name": "Chicken Laksa",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/chicken-laksa-5/4ed31163-381e-43ad-933e-90b4f8aa242f",
+  "ingredients": [
+    {
+      "measurement": { "amount": 2, "unit": "tbsp" },
+      "name": "sunflower oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 500, "unit": "g" },
+      "name": "chicken",
+      "part": "thigh fillets",
+      "variety": null,
+      "intrinsics": ["RSPCA Approved"],
+      "preparation": ["sliced"],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 100, "unit": "g" },
+      "name": "laksa paste",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 375, "unit": "mL" },
+      "name": "chicken stock",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 250, "unit": "mL" },
+      "name": "coconut milk",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2, "unit": null },
+      "name": "kaffir lime leaves",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["very finely shredded"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "name": "palm sugar",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["grated"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "name": "fish sauce",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1.5, "unit": "tbsp" },
+      "name": "lime juice",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 8, "unit": null },
+      "name": "quail eggs",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 200, "unit": "g" },
+      "name": "vermicelli rice noodles",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 160, "unit": "g" },
+      "name": "bean sprouts",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["trimmed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "Thai basil",
+      "part": "leaves",
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "coriander",
+      "part": "leaves",
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "handful" },
+      "name": "fried Asian shallots",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": null },
+      "name": "red chilli",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Heat oil in a wok over medium-high heat. Season chicken, then stir-fry in batches for 3–4 minutes until just golden. Remove chicken from wok and set aside."
+    },
+    {
+      "instruction": "Add laksa paste to the wok and stir-fry for 1 minute until fragrant. Return the chicken and add the stock, coconut milk, makrut lime leaves and 125ml (½ cup) water. Bring to the boil, reduce heat to medium-low and simmer for 10 minutes until chicken is cooked through."
+    },
+    {
+      "instruction": "Stir in palm sugar, fish sauce and lime juice to taste."
+    },
+    {
+      "instruction": "Meanwhile, if using quail eggs, place in a saucepan and cover with cold water. Bring to the boil over high heat and cook for 3–4 minutes until hard-boiled. Rinse under cold water, then peel and halve. Set aside."
+    },
+    {
+      "instruction": "Cook the vermicelli noodles according to packet instructions, then drain and divide among 4 serving bowls."
+    },
+    {
+      "instruction": "Ladle laksa over the noodles. Top with bean sprouts, Thai basil, coriander, quail egg halves, fried shallots and sliced chilli. Serve immediately."
+    }
+  ]
+}

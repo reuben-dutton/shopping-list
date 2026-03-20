@@ -1,0 +1,153 @@
+{
+  "name": "Slow Cooker Teriyaki Beef",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/slow-cooker-teriyaki-beef-recipe/2v7mmiz9",
+  "ingredients": [
+    {
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "name": "olive oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1500, "unit": "g" },
+      "name": "beef",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["blade or topside, whole piece"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 250, "unit": "mL" },
+      "name": "beef stock",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 80, "unit": "mL" },
+      "name": "soy sauce",
+      "part": null,
+      "variety": "light",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 60, "unit": "mL" },
+      "name": "mirin",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 60, "unit": "mL" },
+      "name": "cooking sake",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2, "unit": "tbsp" },
+      "name": "brown sugar",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "clove" },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["crushed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "tsp" },
+      "name": "ginger",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["finely grated"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tsp" },
+      "name": "sesame seeds",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["toasted"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": null },
+      "name": "green shallots",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 3, "unit": "cup" },
+      "name": "rice",
+      "part": null,
+      "variety": "jasmine",
+      "intrinsics": [],
+      "preparation": ["cooked"],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Heat the oil in a large non-stick frying pan over medium-high heat. Add the beef and cook, turning often, for 10 minutes or until browned all over. Transfer to the slow cooker."
+    },
+    {
+      "instruction": "Place the stock, soy sauce, mirin, sake, brown sugar, garlic and ginger in a jug. Stir to dissolve the sugar. Pour over the beef. Cover and cook on Low, turning the meat occasionally, for 8 hours or until very tender."
+    },
+    {
+      "instruction": "Transfer the beef to a large plate. Use 2 forks to coarsely shred. Return the shredded beef to the slow cooker and toss to coat in the sauce."
+    },
+    {
+      "instruction": "Divide beef among serving plates. Sprinkle with toasted sesame seeds and sliced green shallots. Serve with rice."
+    }
+  ]
+}

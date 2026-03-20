@@ -1,0 +1,153 @@
+{
+  "name": "Beef Chow Mein",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/beef-chow-mein/a41c99d3-4802-4ac8-9203-e657ebfdb054",
+  "ingredients": [
+    {
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "name": "vegetable oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": null },
+      "name": "brown onion",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["medium"],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "clove" },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["crushed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 600, "unit": "g" },
+      "name": "beef mince",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["Coles 3 Star Regular"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": null },
+      "name": "carrot",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["peeled", "halved", "thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "name": "plain flour",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": "cup" },
+      "name": "beef stock",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 350, "unit": "g" },
+      "name": "chow mein noodles",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "bunch" },
+      "name": "baby pak choy",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["trimmed", "shredded"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "peas",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["frozen"],
+      "preparation": [],
+      "category": "Frozen",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "tbsp" },
+      "name": "soy sauce",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 0.25, "unit": "cup" },
+      "name": "oyster sauce",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Heat oil in a frying pan over medium-high heat. Add onion and garlic. Cook, stirring, for 3 minutes or until onion has softened. Add mince. Cook, stirring with a wooden spoon to break up mince, for 8 to 10 minutes or until browned and cooked through."
+    },
+    {
+      "instruction": "Add carrot. Cook, stirring, for 5 minutes or until carrot starts to soften. Add flour. Cook, stirring, for 1 minute. Stir in stock. Season with pepper. Bring to the boil. Reduce heat to medium-low. Simmer, stirring occasionally, for 10 minutes or until sauce thickens slightly."
+    },
+    {
+      "instruction": "Meanwhile, place noodles in a heatproof bowl. Cover with boiling water. Set aside for 3 to 5 minutes or until tender. Drain."
+    },
+    {
+      "instruction": "Add pak choy, peas, soy sauce and oyster sauce to the pan. Cook, stirring occasionally, for 3 minutes or until pak choy is just wilted and peas are tender. Add drained noodles and toss to combine. Serve."
+    }
+  ]
+}

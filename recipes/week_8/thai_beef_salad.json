@@ -1,0 +1,328 @@
+{
+  "name": "Thai Beef Salad",
+  "source": "RecipeTin Eats",
+  "url": "https://www.recipetineats.com/thai-beef-salad-2/",
+  "ingredients": [
+    {
+      "name": "beef steak",
+      "part": null,
+      "variety": "sirloin",
+      "measurement": {
+        "amount": 450,
+        "unit": "g"
+      },
+      "intrinsics": [],
+      "preparation": [
+        "at room temperature"
+      ],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "vegetable oil",
+      "part": null,
+      "variety": null,
+      "measurement": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "salt",
+      "part": null,
+      "variety": null,
+      "measurement": {
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "pepper",
+      "part": null,
+      "variety": null,
+      "measurement": {
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "mixed lettuce leaves",
+      "part": null,
+      "variety": null,
+      "measurement": {
+        "amount": 4,
+        "unit": "cup"
+      },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "cherry tomatoes",
+      "part": null,
+      "variety": null,
+      "measurement": {
+        "amount": 20,
+        "unit": null
+      },
+      "intrinsics": [],
+      "preparation": [
+        "halved"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "red onion",
+      "part": null,
+      "variety": null,
+      "measurement": {
+        "amount": 0.5,
+        "unit": null
+      },
+      "intrinsics": [],
+      "preparation": [
+        "very finely sliced"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "cucumber",
+      "part": null,
+      "variety": null,
+      "measurement": {
+        "amount": 1,
+        "unit": null
+      },
+      "intrinsics": [],
+      "preparation": [
+        "deseeded",
+        "halved lengthwise and sliced"
+      ],
+      "category": "Produce",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "name": "coriander",
+      "part": "leaves",
+      "variety": null,
+      "measurement": {
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "mint",
+      "part": "leaves",
+      "variety": null,
+      "measurement": {
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "peanuts",
+      "part": null,
+      "variety": null,
+      "measurement": {
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      "intrinsics": [
+        "roasted",
+        "unsalted"
+      ],
+      "preparation": [
+        "finely chopped"
+      ],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "Thai Dressing",
+      "ingredients": [
+        {
+          "name": "birds eye chilli",
+          "part": null,
+          "variety": null,
+          "measurement": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "intrinsics": [],
+          "preparation": [
+            "deseeded",
+            "finely minced"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "garlic",
+          "part": null,
+          "variety": null,
+          "measurement": {
+            "amount": 0.5,
+            "unit": "tsp"
+          },
+          "intrinsics": [],
+          "preparation": [
+            "finely minced"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "coriander",
+          "part": "stems",
+          "variety": null,
+          "measurement": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "intrinsics": [],
+          "preparation": [
+            "finely chopped"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "white sugar",
+          "part": null,
+          "variety": null,
+          "measurement": {
+            "amount": 4.5,
+            "unit": "tsp"
+          },
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "fish sauce",
+          "part": null,
+          "variety": null,
+          "measurement": {
+            "amount": 4,
+            "unit": "tbsp"
+          },
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "lime juice",
+          "part": null,
+          "variety": null,
+          "measurement": {
+            "amount": 6,
+            "unit": "tbsp"
+          },
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "vegetable oil",
+          "part": null,
+          "variety": null,
+          "measurement": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "salt",
+          "part": null,
+          "variety": "cooking",
+          "measurement": {
+            "amount": 1,
+            "unit": "pinch"
+          },
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Place the birds eye chilli, garlic, coriander stems and a pinch of salt into a mortar and pestle. Grind until a smooth paste forms."
+        },
+        {
+          "instruction": "Add the sugar, fish sauce, lime juice and grapeseed oil. Stir to combine and adjust the balance of sugar, lime juice and fish sauce to taste."
+        }
+      ],
+      "window": "2 hours"
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare the Thai Dressing and set aside."
+    },
+    {
+      "instruction": "Preheat a skillet over high heat until screaming hot and smoking. Drizzle the beef with oil on both sides and sprinkle with salt and pepper. Cook to your liking: about 2 minutes per side for medium rare (internal temp 52\u00b0C/125\u00b0F) or 2\u00bd minutes per side for medium (57\u00b0C/135\u00b0F)."
+    },
+    {
+      "instruction": "Remove beef from the skillet onto a plate. Loosely tent with foil and rest for 10 minutes."
+    },
+    {
+      "instruction": "Place lettuce in a bowl, drizzle with 1 tbsp of the Thai Dressing and toss to coat."
+    },
+    {
+      "instruction": "Slice the beef thinly against the grain. Combine in a bowl with the cherry tomatoes, red onion, cucumber, coriander leaves and mint. Dress with most of the remaining dressing and toss gently."
+    },
+    {
+      "instruction": "Pile dressed lettuce onto plates, then pile over the beef and salad ingredients. Sprinkle with chopped peanuts, garnish with extra coriander and mint leaves if desired, and drizzle with any remaining dressing. Serve immediately."
+    }
+  ]
+}

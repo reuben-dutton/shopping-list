@@ -284,8 +284,8 @@ def create_recipe_pdf(recipe: models.Recipe, output_path: str):
 
 def main():
     """Main function to demonstrate usage."""
-    recipe_dir = r'M:\dev\shopping-list\recipes\week_7'
-    pdf_dir = r'M:\dev\shopping-list\pdfs\week_7'
+    recipe_dir = r'M:\dev\shopping-list\recipes\week_8'
+    pdf_dir = r'M:\dev\shopping-list\pdfs\week_8'
     for filename in os.listdir(recipe_dir):
         if not filename.endswith('.json'):
             continue

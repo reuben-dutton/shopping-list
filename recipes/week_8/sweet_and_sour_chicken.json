@@ -1,0 +1,204 @@
+{
+  "name": "Sweet and Sour Chicken",
+  "source": "Food Network Kitchen",
+  "url": "https://www.foodnetwork.com/recipes/sweet-and-sour-chicken-recipe-1957986",
+  "ingredients": [
+    {
+      "measurement": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "name": "vegetable oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "amount": 2,
+        "unit": null
+      },
+      "name": "chicken",
+      "part": "breast",
+      "variety": null,
+      "intrinsics": [
+        "boneless"
+      ],
+      "preparation": [
+        "sliced into strips"
+      ],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "amount": 1,
+        "unit": "pinch"
+      },
+      "name": "salt",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "amount": 1,
+        "unit": "pinch"
+      },
+      "name": "pepper",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      "name": "bell pepper",
+      "part": null,
+      "variety": "red",
+      "intrinsics": [],
+      "preparation": [
+        "chopped"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      "name": "bell pepper",
+      "part": null,
+      "variety": "green",
+      "intrinsics": [],
+      "preparation": [
+        "chopped"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "amount": 425,
+        "unit": "g"
+      },
+      "name": "pineapple chunks",
+      "part": null,
+      "variety": null,
+      "intrinsics": [
+        "canned"
+      ],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "name": "brown sugar",
+      "part": null,
+      "variety": "light",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "name": "rice wine vinegar",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      "name": "chicken broth",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "amount": 4,
+        "unit": "tsp"
+      },
+      "name": "cornstarch",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [
+        "mixed with 4 tsp water"
+      ],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 3, "unit": "cup" },
+      "name": "rice",
+      "part": null,
+      "variety": "jasmine",
+      "intrinsics": [],
+      "preparation": ["cooked"],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Drain the canned pineapple chunks over a bowl, reserving \u00bd cup (125ml) of the juice. Set both aside separately."
+    },
+    {
+      "instruction": "In a large non-stick skillet, heat oil over medium-high heat. Season chicken strips with salt and pepper and add to pan. Brown chicken and remove to plate."
+    },
+    {
+      "instruction": "Add red and green peppers to the pan and cook for 1 minute."
+    },
+    {
+      "instruction": "Stir in pineapple chunks, reserved juice, brown sugar, rice wine vinegar and chicken broth. Bring to a simmer and cook until the sauce begins to reduce."
+    },
+    {
+      "instruction": "Stir in cornstarch mixture and return to a simmer. Stir in chicken strips and cook for 5 minutes."
+    },
+    {
+      "instruction": "Serve over cooked rice."
+    }
+  ]
+}
