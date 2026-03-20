@@ -93,6 +93,7 @@ _BASE = """<!doctype html>
   .optional {{ color: #888; font-style: italic; }}
   .staple   {{ color: #555; }}
   .qty      {{ font-weight: 600; color: #3b7dd8; white-space: nowrap; }}
+  .part     {{ font-size: .75rem; color: #aaa; font-style: italic; }}
   .recipe   {{ font-size: .75rem; color: #888; }}
   table     {{ width: 100%; border-collapse: collapse; }}
   td        {{ padding: .3rem .5rem; font-size: .88rem; vertical-align: middle; }}
@@ -175,7 +176,7 @@ async def index(request: Request) -> Response:
         week_id = f"week-{week}" if week else "week-ungrouped"
         heading = week if week else "Other"
         checkboxes = "".join(
-            f'<label><input type="checkbox" name="recipe" value="{stem}" checked> {name}</label>'
+            f'<label><input type="checkbox" name="recipe" value="{stem}"> {name}</label>'
             for stem, name in recipes
         )
         sections_html += f"""
@@ -235,7 +236,7 @@ async def ingredients(request: Request) -> Response:
         cat_label = cat.value
         if cat_label not in shopping:
             continue
-        rows_html += f'<tr class="cat-head"><td colspan="4"><span>{cat_label.upper()}</span></td></tr>\n'
+        rows_html += f'<tr class="cat-head"><td colspan="5"><span>{cat_label.upper()}</span></td></tr>\n'
         for item in shopping[cat_label]:
             name_cls = "optional" if item["optional"] else ("staple" if item["staple"] else "")
             if item["optional"]:
@@ -254,10 +255,12 @@ async def ingredients(request: Request) -> Response:
 
             lines = item["lines"]
             intrinsics_vary = any(ln.get("name_label") for ln in lines)
+            # Check if all lines share the same part value — if so we can rowspan it
+            parts = [ln.get("part") or "" for ln in lines]
+            parts_uniform = len(set(parts)) == 1
             for i, ln in enumerate(item["lines"]):
                 key = f"{cat_label}|||{item['name']}|||{i}"
-                # Name cell: use rowspan when all lines share the same name;
-                # otherwise give each line its own td showing its specific label.
+                # Name cell: rowspan when all lines share the same name
                 if intrinsics_vary:
                     label = ln.get("name_label") or item["name"]
                     name_cell = (
@@ -272,21 +275,22 @@ async def ingredients(request: Request) -> Response:
                     )
                 else:
                     name_cell = ""
-                # Part (when varying across recipes) shown as muted annotation in recipe column
-                part = ln.get("part")
-                if part:
-                    recipe_cell = (
-                        f'<td class="recipe">'
-                        f'<span style="display:block;color:#aaa;font-style:italic;font-size:.7rem">{part}</span>'
-                        f'{ln["recipe_name"]}'
-                        f'</td>'
+                # Part cell: rowspan when uniform across lines, per-line otherwise
+                part = ln.get("part") or ""
+                if parts_uniform and i == 0:
+                    part_cell = (
+                        f'<td rowspan="{len(lines)}" class="part">{part}</td>'
                     )
+                elif parts_uniform:
+                    part_cell = ""
                 else:
-                    recipe_cell = f'<td class="recipe">{ln["recipe_name"]}</td>'
+                    part_cell = f'<td class="part">{part}</td>'
+                recipe_cell = f'<td class="recipe">{ln["recipe_name"]}</td>'
                 rows_html += (
                     f'<tr class="{row_cls}">'
                     f'<td style="width:32px"><input type="checkbox" name="item" value="{key}" checked></td>'
                     f'{name_cell}'
+                    f'{part_cell}'
                     f'<td class="qty">{ln["quantity"]}</td>'
                     f'{recipe_cell}'
                     f'</tr>\n'
@@ -302,6 +306,7 @@ async def ingredients(request: Request) -> Response:
       <tr>
         <th style="width:32px"></th>
         <th style="text-align:left;font-size:.75rem;padding:.3rem .5rem">Ingredient</th>
+        <th style="text-align:left;font-size:.75rem;padding:.3rem .5rem">Part</th>
         <th style="text-align:left;font-size:.75rem;padding:.3rem .5rem">Qty</th>
         <th style="text-align:left;font-size:.75rem;padding:.3rem .5rem">Recipe</th>
       </tr>

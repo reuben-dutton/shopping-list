@@ -4,7 +4,10 @@
   "url": "https://www.taste.com.au/recipes/slow-cooker-teriyaki-beef-recipe/2v7mmiz9",
   "ingredients": [
     {
-      "measurement": { "amount": 1, "unit": "tbsp" },
+      "measurement": {
+        "amount": 0.5,
+        "unit": "tbsp"
+      },
       "name": "olive oil",
       "part": null,
       "variety": null,
@@ -15,18 +18,26 @@
       "staple": true
     },
     {
-      "measurement": { "amount": 1500, "unit": "g" },
+      "measurement": {
+        "amount": 750.0,
+        "unit": "g"
+      },
       "name": "beef",
       "part": null,
       "variety": null,
-      "intrinsics": ["blade or topside, whole piece"],
+      "intrinsics": [
+        "blade or topside, whole piece"
+      ],
       "preparation": [],
       "category": "Meat & Seafood",
       "optional": false,
       "staple": false
     },
     {
-      "measurement": { "amount": 250, "unit": "mL" },
+      "measurement": {
+        "amount": 125.0,
+        "unit": "mL"
+      },
       "name": "beef stock",
       "part": null,
       "variety": null,
@@ -37,7 +48,10 @@
       "staple": true
     },
     {
-      "measurement": { "amount": 80, "unit": "mL" },
+      "measurement": {
+        "amount": 40.0,
+        "unit": "mL"
+      },
       "name": "soy sauce",
       "part": null,
       "variety": "light",
@@ -48,7 +62,10 @@
       "staple": true
     },
     {
-      "measurement": { "amount": 60, "unit": "mL" },
+      "measurement": {
+        "amount": 30.0,
+        "unit": "mL"
+      },
       "name": "mirin",
       "part": null,
       "variety": null,
@@ -59,7 +76,10 @@
       "staple": false
     },
     {
-      "measurement": { "amount": 60, "unit": "mL" },
+      "measurement": {
+        "amount": 30.0,
+        "unit": "mL"
+      },
       "name": "cooking sake",
       "part": null,
       "variety": null,
@@ -70,7 +90,10 @@
       "staple": false
     },
     {
-      "measurement": { "amount": 2, "unit": "tbsp" },
+      "measurement": {
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
       "name": "brown sugar",
       "part": null,
       "variety": null,
@@ -81,45 +104,67 @@
       "staple": true
     },
     {
-      "measurement": { "amount": 2, "unit": "clove" },
+      "measurement": {
+        "amount": 1.0,
+        "unit": null
+      },
       "name": "garlic",
       "part": null,
       "variety": null,
       "intrinsics": [],
-      "preparation": ["crushed"],
+      "preparation": [
+        "crushed"
+      ],
       "category": "Produce",
       "optional": false,
       "staple": true
     },
     {
-      "measurement": { "amount": 2, "unit": "tsp" },
+      "measurement": {
+        "amount": 1.0,
+        "unit": "tsp"
+      },
       "name": "ginger",
       "part": null,
       "variety": null,
-      "intrinsics": ["fresh"],
-      "preparation": ["finely grated"],
+      "intrinsics": [
+        "fresh"
+      ],
+      "preparation": [
+        "finely grated"
+      ],
       "category": "Produce",
       "optional": false,
       "staple": false
     },
     {
-      "measurement": { "amount": 1, "unit": "tsp" },
+      "measurement": {
+        "amount": 0.5,
+        "unit": "tsp"
+      },
       "name": "sesame seeds",
       "part": null,
       "variety": null,
-      "intrinsics": ["toasted"],
+      "intrinsics": [
+        "toasted"
+      ],
       "preparation": [],
       "category": "Dry Goods & Spices",
       "optional": false,
       "staple": true
     },
     {
-      "measurement": { "amount": 2, "unit": null },
+      "measurement": {
+        "amount": 1.0,
+        "unit": null
+      },
       "name": "green shallots",
       "part": null,
       "variety": null,
       "intrinsics": [],
-      "preparation": ["sliced"],
+      "preparation": [
+        "sliced"
+      ],
       "category": "Produce",
       "optional": false,
       "staple": false

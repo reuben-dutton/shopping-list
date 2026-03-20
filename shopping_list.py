@@ -197,7 +197,7 @@ def aggregate(
             norm_amount, norm_unit = _normalise(
                 ing.measurement.amount, ing.measurement.unit
             )
-            ing_key = ing.name.strip().lower()
+            ing_key = f"{ing.variety or ''}|{ing.name}|{ing.part or ''}".strip().lower()
 
             if ing_key not in per_recipe:
                 per_recipe[ing_key] = {
@@ -262,8 +262,6 @@ def aggregate(
             shared_intrinsics = ""  # will be shown per-line
 
         name_parts = [p for p in [shared_intrinsics or None, meta["variety"], meta["name"]] if p]
-        if shared_part:
-            name_parts.append(shared_part)
         display_name = " ".join(name_parts)
 
         parts_vary = shared_part is None and any(
@@ -287,8 +285,6 @@ def aggregate(
             raw = data[recipe_name].get("_intrinsics") or []
             prefix = ", ".join(raw)
             base_parts = [p for p in [prefix or None, meta["variety"], meta["name"]] if p]
-            if shared_part:
-                base_parts.append(shared_part)
             return " ".join(base_parts)
 
         if len(recipe_names_sorted) == 1:
@@ -298,8 +294,8 @@ def aggregate(
                 {
                     "quantity": _format_quantity(amt, unit),
                     "recipe_name": recipe_name,
-                    "part": None,       # already in display_name for single recipe
-                    "name_label": None, # already in display_name for single recipe
+                    "part": unit_buckets.get("_part"),
+                    "name_label": None,
                 }
                 for unit, amt in unit_buckets.items()
                 if unit not in _SKIP
@@ -308,7 +304,7 @@ def aggregate(
             lines = []
             for recipe_name in recipe_names_sorted:
                 unit_buckets = data[recipe_name]
-                line_part = unit_buckets.get("_part") if parts_vary else None
+                line_part = unit_buckets.get("_part")
                 label = _name_label(recipe_name)
                 for unit, amt in unit_buckets.items():
                     if unit in _SKIP:
@@ -382,8 +378,8 @@ def build_pdf(
     s_part        = style("Part",       fontSize=7,  textColor=GREY,  fontName="Helvetica-Oblique", leading=9)
     s_footer      = style("Footer",     fontSize=7,  textColor=LIGHT, fontName="Helvetica",        alignment=TA_CENTER)
 
-    # qty | name | recipe(s)
-    col_w = [usable_width * 0.12, usable_width * 0.50, usable_width * 0.38]
+    # qty | name | part | recipe(s)
+    col_w = [usable_width * 0.12, usable_width * 0.38, usable_width * 0.16, usable_width * 0.34]
 
     story = []
 
@@ -395,30 +391,29 @@ def build_pdf(
         """
         Returns (qty_cell, recipe_cell) — each is either a single Paragraph
         (one line) or a list of Paragraphs (multiple lines, stacked).
-        When a line carries a per-line part (parts vary across recipes), the
-        recipe cell shows the part in grey italic above the recipe name.
         """
         if len(lines) == 1:
             ln = lines[0]
-            recipe_paras = []
-            if ln.get("part"):
-                recipe_paras.append(Paragraph(ln["part"], s_part))
-            recipe_paras.append(Paragraph(ln["recipe_name"], s_recipe_one))
             return (
                 Paragraph(ln["quantity"], s_qty),
-                recipe_paras if len(recipe_paras) > 1 else recipe_paras[0],
+                Paragraph(ln["recipe_name"], s_recipe_one),
             )
         qty_paras = []
         recipe_paras = []
         for ln in lines:
             qty_paras.append(Paragraph(ln["quantity"], s_qty))
-            if ln.get("part"):
-                recipe_paras.append(Paragraph(ln["part"], s_part))
-                recipe_paras.append(Paragraph(ln["recipe_name"], s_recipe_item))
-                qty_paras.append(Paragraph("", s_qty))
-            else:
-                recipe_paras.append(Paragraph(ln["recipe_name"], s_recipe_item))
+            recipe_paras.append(Paragraph(ln["recipe_name"], s_recipe_item))
         return qty_paras, recipe_paras
+
+    def part_cell(lines: list[dict]) -> list | Paragraph:
+        """
+        Returns the part column content — a Paragraph per line so it aligns
+        with the qty and recipe columns when there are multiple lines.
+        """
+        if len(lines) == 1:
+            part = lines[0].get("part") or ""
+            return Paragraph(part, s_part)
+        return [Paragraph(ln.get("part") or "", s_part) for ln in lines]
 
     def name_cell(item: dict, prefix: str, n_style) -> list | Paragraph:
         """
@@ -457,6 +452,7 @@ def build_pdf(
             rows.append([
                 qty_cell,
                 name_cell(item, prefix, n_style),
+                part_cell(item["lines"]),
                 recipe_cell,
             ])
 
