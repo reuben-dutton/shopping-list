@@ -1,0 +1,95 @@
+{
+  "name": "15-Minute Salmon Sesame Rice Superfood Bowls",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/15-minute-salmon-sesame-rice-superfood-bowls-recipe/kff7vz1k",
+  "ingredients": [
+    {
+      "name": "brown rice",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "g", "amount": 450.0 },
+      "intrinsics": ["microwave", "2.5-minute"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "superfood vegetable mix",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "g", "amount": 300.0 },
+      "intrinsics": ["packaged"],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "chives",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "bunch", "amount": 0.5 },
+      "intrinsics": [],
+      "preparation": ["cut into 4cm lengths"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "Japanese roasted sesame dressing",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "cup", "amount": 0.333 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "hot smoked salmon",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "g", "amount": 300.0 },
+      "intrinsics": ["pepper-crusted", "hot smoked", "skin removed"],
+      "preparation": ["flaked"],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "avocado",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 1 },
+      "intrinsics": ["large"],
+      "preparation": ["cut into wedges"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "pepita and sunflower seed mix",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "handful", "amount": 1.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Microwave the brown rice following packet directions."
+    },
+    {
+      "instruction": "Combine the warm rice, superfood vegetable mix and half the chives in a large bowl. Add three-quarters of the sesame dressing and toss to combine."
+    },
+    {
+      "instruction": "Divide the rice mixture among serving bowls. Top with flaked salmon and avocado. Drizzle with the remaining dressing. Sprinkle with seed mix and remaining chives, then serve."
+    }
+  ]
+}

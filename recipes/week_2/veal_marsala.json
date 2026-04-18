@@ -1,0 +1,148 @@
+{
+  "name": "Veal Marsala",
+  "source": "Inside the Rustic Kitchen",
+  "url": "https://www.insidetherustickitchen.com/veal-marsala/",
+  "ingredients": [
+    {
+      "name": "veal cutlets",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 8 },
+      "intrinsics": [],
+      "preparation": ["seasoned with salt and pepper"],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "flour",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "cup", "amount": 0.25 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "butter",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tbsp", "amount": 2.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "mushrooms",
+      "variety": "Crimini",
+      "part": null,
+      "measurement": { "unit": "g", "amount": 170.0 },
+      "intrinsics": [],
+      "preparation": ["sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "garlic",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "clove", "amount": 2.0 },
+      "intrinsics": [],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "chicken stock",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "mL", "amount": 375.0 },
+      "intrinsics": ["low sodium"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "Marsala wine",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "mL", "amount": 125.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "parsley",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tbsp", "amount": 1.5 },
+      "intrinsics": ["fresh"],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "olive oil",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tbsp", "amount": 2.5 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "salt",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "pinch", "amount": 1.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "black pepper",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "pinch", "amount": 1.0 },
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Season the veal cutlets with salt and pepper, pressing lightly so it adheres. Spread the flour on a plate and dredge each piece of veal until lightly coated, shaking off any excess."
+    },
+    {
+      "instruction": "Heat the olive oil in a large skillet over high heat. Working in batches, fry the veal for 1 minute on each side until browned and cooked through, adding more oil as needed. Remove from the pan and set aside on a plate."
+    },
+    {
+      "instruction": "Add the butter to the pan. Once melted, add the mushrooms with a pinch of salt and fry for 5–7 minutes until the excess moisture has been released and the mushrooms begin to cook down."
+    },
+    {
+      "instruction": "Add the garlic and fry for 1 minute until fragrant. Pour in the Marsala wine and let it simmer until the liquid has reduced by half."
+    },
+    {
+      "instruction": "Add the chicken stock and simmer for 5–7 minutes until the sauce starts to thicken. Return the veal to the pan to warm through."
+    },
+    {
+      "instruction": "Serve the veal Marsala with a sprinkle of freshly chopped parsley."
+    }
+  ]
+}

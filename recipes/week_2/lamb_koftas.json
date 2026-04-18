@@ -1,0 +1,268 @@
+{
+  "name": "Lamb Koftas with Yoghurt Dressing",
+  "source": "RecipeTin Eats",
+  "url": "https://www.recipetineats.com/lamb-koftas-yoghurt-dressing-2/",
+  "ingredients": [
+    {
+      "name": "Yoghurt Sauce",
+      "ingredients": [
+        {
+          "name": "yoghurt",
+          "variety": null,
+          "part": null,
+          "measurement": { "unit": "cup", "amount": 1.0 },
+          "intrinsics": ["Greek", "plain"],
+          "preparation": [],
+          "category": "Dairy & Eggs",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "olive oil",
+          "variety": "extra virgin",
+          "part": null,
+          "measurement": { "unit": "tbsp", "amount": 1.0 },
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "garlic",
+          "variety": null,
+          "part": null,
+          "measurement": { "unit": "clove", "amount": 1.0 },
+          "intrinsics": [],
+          "preparation": ["crushed"],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "cumin",
+          "variety": null,
+          "part": null,
+          "measurement": { "unit": "tsp", "amount": 1.0 },
+          "intrinsics": ["ground"],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "lemon juice",
+          "variety": null,
+          "part": null,
+          "measurement": { "unit": "tbsp", "amount": 1.0 },
+          "intrinsics": ["fresh"],
+          "preparation": [],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "salt",
+          "variety": null,
+          "part": null,
+          "measurement": { "unit": "tsp", "amount": 0.25 },
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "black pepper",
+          "variety": null,
+          "part": null,
+          "measurement": { "unit": "tsp", "amount": 0.25 },
+          "intrinsics": ["ground"],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Combine all ingredients and refrigerate for at least 20 minutes (overnight is even better) to allow the flavours to develop."
+        }
+      ],
+      "window": "2 hours"
+    },
+    {
+      "name": "lamb mince",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "g", "amount": 500.0 },
+      "intrinsics": ["minced"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "onion",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "whole", "amount": 0.5 },
+      "intrinsics": [],
+      "preparation": ["grated"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "breadcrumbs",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "cup", "amount": 0.25 },
+      "intrinsics": ["panko"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "garlic",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "clove", "amount": 2.0 },
+      "intrinsics": [],
+      "preparation": ["crushed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "coriander",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tbsp", "amount": 2.0 },
+      "intrinsics": ["fresh"],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "cumin",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tsp", "amount": 2.0 },
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "coriander",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tsp", "amount": 2.0 },
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "paprika",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tsp", "amount": 2.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "cinnamon",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tsp", "amount": 1.5 },
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "cayenne pepper",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tsp", "amount": 0.75 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": true,
+      "staple": true
+    },
+    {
+      "name": "salt",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tsp", "amount": 1.0 },
+      "intrinsics": ["kosher"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "black pepper",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tsp", "amount": 0.5 },
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "flatbreads",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 8 },
+      "intrinsics": ["small"],
+      "preparation": ["warmed"],
+      "category": "Bakery",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Grate the onion into a large bowl using a standard box grater. Add the lamb mince, panko breadcrumbs, 2 crushed garlic cloves, fresh coriander and all kofta spices (cumin, ground coriander, paprika, cinnamon, cayenne, salt and pepper). Mix well with your hands until thoroughly combined."
+    },
+    {
+      "instruction": "With damp hands, divide the meat mixture into 8 equal portions. Press and shape each portion onto a skewer, smoothing the surface."
+    },
+    {
+      "options": {
+        "Stove": [
+          {
+            "instruction": "Heat 1/2 tbsp oil in a large skillet over medium-high heat. Cook koftas in batches for about 5 minutes total, turning to brown evenly all over."
+          }
+        ],
+        "BBQ": [
+          {
+            "instruction": "Cook koftas on a medium-high BBQ for about 6 minutes, rotating to brown evenly all over."
+          }
+        ],
+        "Broiler": [
+          {
+            "instruction": "Preheat broiler/oven grill and cook koftas 30cm from the heat source for 12 minutes, rotating as needed until lightly browned."
+          }
+        ]
+      }
+    },
+    {
+      "instruction": "Serve as a DIY spread: lay out warm flatbreads, yoghurt sauce and salad. To assemble, smear flatbread with yoghurt sauce, top with salad then kofta, and drizzle with extra yoghurt sauce."
+    }
+  ]
+}

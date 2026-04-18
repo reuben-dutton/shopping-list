@@ -1,0 +1,120 @@
+{
+  "name": "Slow Cooker Silverside",
+  "source": "Best Recipes",
+  "url": "https://www.bestrecipes.com.au/recipes/slow-cooker-silverside-recipe/y78b0vl2",
+  "ingredients": [
+    {
+      "name": "silverside roast",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 1 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "onion",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 2 },
+      "intrinsics": ["small"],
+      "preparation": ["halved"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "carrot",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 1 },
+      "intrinsics": ["medium"],
+      "preparation": ["peeled", "roughly chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "brown sugar",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "cup", "amount": 0.25 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "malt vinegar",
+      "variety": "brown",
+      "part": null,
+      "measurement": { "unit": "cup", "amount": 0.25 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "garlic",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "clove", "amount": 2.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "bay leaves",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 2.5 },
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "beef stock",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "L", "amount": 2.0 },
+      "intrinsics": ["liquid"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "water",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "mL", "amount": 500.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Other",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Place the onions, carrot, garlic and bay leaves in the base of the slow cooker. Place the silverside roast on top of the vegetables. Add the brown sugar, malt vinegar, beef stock and enough water so the silverside is almost fully submerged."
+    },
+    {
+      "instruction": "Cook on low for 6½ hours until the meat is tender and slightly falling apart."
+    },
+    {
+      "instruction": "Allow the silverside to rest for 10 minutes under foil before slicing."
+    },
+    {
+      "instruction": "Serve with mashed potato, the vegetables from the slow cooker and green beans."
+    }
+  ]
+}

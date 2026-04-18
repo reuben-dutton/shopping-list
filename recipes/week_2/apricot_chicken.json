@@ -1,0 +1,167 @@
+{
+  "name": "Apricot Chicken Casserole",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/healthy-apricot-chicken-recipe/i19qamxv",
+  "ingredients": [
+    {
+      "name": "olive oil",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tsp", "amount": 2.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "chicken thigh fillets",
+      "variety": null,
+      "part": "thigh",
+      "measurement": { "unit": "g", "amount": 600.0 },
+      "intrinsics": ["skinless", "fat trimmed"],
+      "preparation": ["cut into 3cm pieces"],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "onion",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 1 },
+      "intrinsics": ["large"],
+      "preparation": ["halved", "thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "celery",
+      "variety": null,
+      "part": "sticks",
+      "measurement": { "amount": 2 },
+      "intrinsics": [],
+      "preparation": ["thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "carrots",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 2 },
+      "intrinsics": [],
+      "preparation": ["peeled", "cut into chunks"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "garlic",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "clove", "amount": 2.0 },
+      "intrinsics": [],
+      "preparation": ["crushed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "wholegrain mustard",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "tbsp", "amount": 1.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "chicken stock",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "cup", "amount": 0.5 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "apricot nectar",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "cup", "amount": 1.0 },
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "dried apricots",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "cup", "amount": 0.25 },
+      "intrinsics": ["dried"],
+      "preparation": ["chopped"],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "cannellini beans",
+      "variety": null,
+      "part": null,
+      "measurement": { "unit": "g", "amount": 400.0 },
+      "intrinsics": ["canned", "drained", "rinsed"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "snow peas",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 1 },
+      "intrinsics": [],
+      "preparation": ["steamed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "broccolini",
+      "variety": null,
+      "part": null,
+      "measurement": { "amount": 1 },
+      "intrinsics": [],
+      "preparation": ["steamed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Preheat oven to 170°C (150°C fan-forced). Heat 1 tsp oil in a large flameproof casserole dish over high heat. Working in 2 batches, cook the chicken for 1–2 minutes each side until golden. Transfer to a plate."
+    },
+    {
+      "instruction": "Heat the remaining 1 tsp oil in the same dish over medium heat. Add the onion, celery and carrot and cook, stirring, for 5 minutes until softened. Add the garlic and cook for 30 seconds until fragrant."
+    },
+    {
+      "instruction": "Return the chicken to the dish. Stir in the wholegrain mustard, chicken stock, apricot nectar and dried apricots and bring to the boil. Cover the dish with a lid or foil."
+    },
+    {
+      "instruction": "Bake for 40 minutes, adding the cannellini beans for the last 10 minutes of cooking time."
+    },
+    {
+      "instruction": "Serve with steamed snow peas and broccolini."
+    }
+  ]
+}
