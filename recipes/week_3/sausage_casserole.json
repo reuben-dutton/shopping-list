@@ -1,0 +1,258 @@
+{
+  "name": "Slow Cooker Sausage Casserole",
+  "source": "Slow Cooker Club",
+  "url": "https://www.slowcookerclub.com/wprm_print/slow-cooker-sausage-casserole",
+  "ingredients": [
+    {
+      "measurement": { "amount": 12 },
+      "name": "sausages",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["Toulouse-style or other herby variety"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 100, "unit": "g" },
+      "name": "pork lardons",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 200, "unit": "g" },
+      "name": "haricot beans",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["tinned"],
+      "preparation": ["drained"],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 200, "unit": "g" },
+      "name": "butter beans",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["tinned"],
+      "preparation": ["drained"],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "onion",
+      "part": null,
+      "variety": "white",
+      "intrinsics": [],
+      "preparation": ["diced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "carrots",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["peeled", "diced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "celery sticks",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["diced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 4, "unit": "clove" },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["minced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 400, "unit": "g" },
+      "name": "chopped tomatoes",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["tinned"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 200, "unit": "mL" },
+      "name": "white wine",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 150, "unit": "mL" },
+      "name": "water",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["hot"],
+      "preparation": [],
+      "category": "Other",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "chicken stock cube",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 4, "unit": "tbsp" },
+      "name": "tomato puree",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "tsp" },
+      "name": "parsley",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "bay leaves",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tsp" },
+      "name": "thyme",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "tsp" },
+      "name": "paprika",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1.5, "unit": "tsp" },
+      "name": "sugar",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "tsp" },
+      "name": "salt",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": true,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 0.25, "unit": "tsp" },
+      "name": "black pepper",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["finely ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "name": "oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Dice the carrots, celery and onion into small chunks (about ½cm). Add to the slow cooker along with the minced garlic, thyme and parsley."
+    },
+    {
+      "instruction": "Cook the sausages in a large frying pan with the oil over medium heat until lightly browned on the outside, 1–2 minutes. Add the pork lardons and cook until golden at the edges and the sausages are a deeper colour, a further 1–2 minutes. Transfer the sausages and lardons to the slow cooker."
+    },
+    {
+      "instruction": "Drain any excess fat from the pan and return to the heat. Add the white wine and simmer over medium-high heat for 2–3 minutes to evaporate the alcohol."
+    },
+    {
+      "instruction": "Dissolve the stock cube in the hot water. Pour the reduced wine, chopped tomatoes, tomato puree, chicken stock, sugar, paprika and black pepper into the slow cooker."
+    },
+    {
+      "instruction": "Add the haricot beans, butter beans and bay leaves. Stir gently to combine, ensuring the bay leaves are submerged. Cook on low for 6–8 hours."
+    },
+    {
+      "instruction": "At the end of cooking, stir gently to keep the beans and sausages intact. Taste and add salt if needed. Remove the bay leaves and serve."
+    }
+  ]
+}

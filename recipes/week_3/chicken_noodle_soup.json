@@ -1,0 +1,195 @@
+{
+  "name": "Easiest Chicken Noodle Soup",
+  "source": "NYT Cooking",
+  "url": "https://cooking.nytimes.com/recipes/1020746-easiest-chicken-noodle-soup",
+  "ingredients": [
+    {
+      "measurement": { "amount": 5, "unit": "tbsp" },
+      "name": "olive oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["extra-virgin"],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 454, "unit": "g" },
+      "name": "chicken",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 4, "unit": "clove" },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["roughly chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1.5, "unit": "tsp" },
+      "name": "coriander",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "tsp" },
+      "name": "celery seeds",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "celery",
+      "part": "stalks",
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["halved lengthwise", "sliced ½-inch thick"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "carrot",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["large"],
+      "preparation": ["peeled", "cut into ½-inch cubes"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "shallot",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["large"],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "name": "thyme",
+      "part": "leaves",
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1750, "unit": "mL" },
+      "name": "chicken stock",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 227, "unit": "g" },
+      "name": "egg noodles",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 4, "unit": "tbsp" },
+      "name": "crème fraîche",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "handful" },
+      "name": "parsley",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["torn"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "handful" },
+      "name": "dill",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["torn"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "lemon",
+      "part": "zest",
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["zested"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "In a large pot, heat 3 tbsp olive oil over medium-high. Add the ground chicken, season generously with salt and pepper, and cook, breaking up with a wooden spoon, until starting to crumble, about 3 minutes."
+    },
+    {
+      "instruction": "Add the garlic, coriander and celery seeds (if using) to the chicken and cook, stirring frequently, until the chicken is cooked through, about 2 minutes. Using a slotted spoon, scoop the chicken into a small lidded bowl to retain moisture; cover and set aside."
+    },
+    {
+      "instruction": "Add the celery, carrot, shallot, thyme and remaining 2 tbsp olive oil to the pot. Season with salt and pepper and cook, stirring, until slicked with fat, about 3 minutes."
+    },
+    {
+      "instruction": "Add the chicken stock (1.75L for a stew-like soup, up to 2L for a brothy soup) and bring to a boil over high heat."
+    },
+    {
+      "instruction": "Add the noodles and cook over medium-high heat until al dente according to package directions. If the noodles absorb a lot of liquid, add more stock to taste."
+    },
+    {
+      "instruction": "Add the reserved chicken and any accumulated juices and heat until warmed through. Season to taste with salt and pepper."
+    },
+    {
+      "instruction": "Divide among bowls and top each with a spoonful of crème fraîche, a handful of torn parsley and dill, and lemon zest."
+    }
+  ]
+}

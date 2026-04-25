@@ -1,0 +1,203 @@
+{
+  "name": "Chinese Five Spice Beef Wok-Tossed Noodles",
+  "source": "Taste.com.au",
+  "url": "https://www.taste.com.au/recipes/chinese-five-spice-beef-wok-tossed-noodles/9b265b90-79df-4ccd-bd7b-17f76ddcac18",
+  "ingredients": [
+    {
+      "name": "Marinade",
+      "ingredients": [
+        {
+          "measurement": { "amount": 1, "unit": "tbsp" },
+          "name": "cornflour",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": { "amount": 0.333, "unit": "cup" },
+          "name": "soy sauce",
+          "part": null,
+          "variety": null,
+          "intrinsics": ["salt-reduced"],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": { "amount": 1.5, "unit": "tsp" },
+          "name": "Chinese five spice",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": { "amount": 1, "unit": "tsp" },
+          "name": "sesame oil",
+          "part": null,
+          "variety": null,
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Combine the cornflour, soy sauce, five spice and sesame oil in a jug and stir until smooth. Divide in half: use one half to marinate the beef, and stir the chicken stock into the other half and set aside as the sauce."
+        }
+      ],
+      "window": "2 hours"
+    },
+    {
+      "measurement": { "amount": 500, "unit": "g" },
+      "name": "beef rump steak",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["trimmed"],
+      "preparation": ["thinly sliced"],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.333, "unit": "cup" },
+      "name": "chicken stock",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 450, "unit": "g" },
+      "name": "hokkien noodles",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh", "thin"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2, "unit": "tbsp" },
+      "name": "peanut oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "onion",
+      "part": null,
+      "variety": "red",
+      "intrinsics": [],
+      "preparation": ["halved", "cut into thin wedges"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "clove" },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["crushed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "ginger",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh", "2cm piece"],
+      "preparation": ["peeled", "finely grated"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "bunch" },
+      "name": "baby buk choy",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["trimmed"],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 200, "unit": "g" },
+      "name": "snow peas",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["trimmed"],
+      "preparation": ["halved diagonally"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "bean sprouts",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["trimmed"],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "red chilli",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["small"],
+      "preparation": ["sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Make the marinade: combine cornflour, soy sauce, five spice and sesame oil in a jug and stir until smooth. Add the beef to a shallow dish with half the marinade and toss to coat. Cover and refrigerate for 30 minutes if time permits. Stir the chicken stock into the remaining marinade and set aside as sauce."
+    },
+    {
+      "instruction": "Cook the noodles according to packet directions. Drain and transfer to a bowl."
+    },
+    {
+      "instruction": "Heat a large wok over high heat. Add 2 tsp of the peanut oil and swirl to coat. Stir-fry a third of the beef for 2–3 minutes until browned. Transfer to a bowl and cover to keep warm. Repeat with the remaining oil and beef in 2 more batches."
+    },
+    {
+      "instruction": "Add the remaining peanut oil to the wok over high heat and swirl to coat. Add the red onion and stir-fry for 2 minutes until softened. Add the garlic and ginger and stir-fry for 1 minute until fragrant."
+    },
+    {
+      "instruction": "Add the noodles and sauce mixture to the wok. Stir-fry for 2 minutes. Add the buk choy and snow peas and stir-fry for 1 minute until almost tender."
+    },
+    {
+      "instruction": "Return the beef to the wok and stir-fry for 1–2 minutes until heated through. Serve topped with bean sprouts and sliced chilli."
+    }
+  ]
+}

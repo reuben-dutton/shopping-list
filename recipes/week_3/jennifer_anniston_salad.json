@@ -1,0 +1,161 @@
+{
+  "name": "Jennifer Aniston Salad",
+  "source": "Eating Bird Food",
+  "url": "https://www.eatingbirdfood.com/jennifer-aniston-salad/",
+  "ingredients": [
+    {
+      "measurement": { "amount": 1, "unit": "cup" },
+      "name": "quinoa",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["uncooked"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2, "unit": "cup" },
+      "name": "water",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Other",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": "cup" },
+      "name": "cucumber",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "parsley",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "mint",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.333, "unit": "cup" },
+      "name": "onion",
+      "part": null,
+      "variety": "red",
+      "intrinsics": [],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "pistachios",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["roasted", "salted"],
+      "preparation": ["chopped"],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 425, "unit": "g" },
+      "name": "chickpeas",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["tinned"],
+      "preparation": ["drained", "rinsed"],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "lemons",
+      "part": "juice",
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["juiced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.25, "unit": "cup" },
+      "name": "olive oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["extra-virgin"],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tsp" },
+      "name": "salt",
+      "part": null,
+      "variety": "sea",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "tsp" },
+      "name": "black pepper",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "feta cheese",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["crumbled"],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Rinse and drain the quinoa. Add to a small pot with 2 cups of water and bring to a boil. Reduce to a simmer, cover and cook for 15 minutes. Fluff with a fork and let cool for 5–10 minutes."
+    },
+    {
+      "instruction": "In a large bowl, combine the cooled quinoa, cucumber, parsley, mint, red onion, pistachios, chickpeas, lemon juice, olive oil, salt, pepper and feta. Stir together until well mixed."
+    },
+    {
+      "instruction": "Serve immediately or refrigerate for a couple of hours before serving. Store in an airtight container for up to 5 days."
+    }
+  ]
+}

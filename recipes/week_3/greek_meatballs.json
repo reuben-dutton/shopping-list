@@ -1,0 +1,187 @@
+{
+  "name": "Easy Greek Meatballs with Feta Cheese",
+  "source": "Simply Delicious",
+  "url": "https://simply-delicious-food.com/easy-greek-meatballs/",
+  "ingredients": [
+    {
+      "measurement": { "amount": 500, "unit": "g" },
+      "name": "lamb",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["minced"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 500, "unit": "g" },
+      "name": "beef",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["minced"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1, "unit": "cup" },
+      "name": "breadcrumbs",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": [],
+      "category": "Bakery",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2 },
+      "name": "eggs",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["large"],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "feta cheese",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["crumbled"],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "onion",
+      "part": null,
+      "variety": "red",
+      "intrinsics": ["small"],
+      "preparation": ["finely minced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "clove" },
+      "name": "garlic",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["crushed"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1 },
+      "name": "lemon",
+      "part": "zest",
+      "variety": null,
+      "intrinsics": [],
+      "preparation": ["zested"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 3, "unit": "tsp" },
+      "name": "oregano",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 2, "unit": "tsp" },
+      "name": "rosemary",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 0.5, "unit": "cup" },
+      "name": "parsley",
+      "part": null,
+      "variety": null,
+      "intrinsics": ["fresh"],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": { "amount": 2, "unit": "tsp" },
+      "name": "salt",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tsp" },
+      "name": "black pepper",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": { "amount": 1, "unit": "tbsp" },
+      "name": "olive oil",
+      "part": null,
+      "variety": null,
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Combine the lamb, beef, breadcrumbs, eggs, feta, red onion, garlic, lemon zest, oregano, rosemary, parsley, salt and pepper. Mix until just combined, taking care not to overmix."
+    },
+    {
+      "instruction": "To test for seasoning, fry a small amount of the mixture and adjust salt and pepper as needed."
+    },
+    {
+      "instruction": "With wet hands, form meatballs approximately 3cm/1in in diameter and place on a chopping board.",
+      "options": {
+        "Pan-fry": [
+          {
+            "instruction": "Pre-heat a non-stick frying pan over medium-high and add the olive oil. Fry the meatballs in batches until golden brown on all sides and cooked through."
+          }
+        ],
+        "Bake": [
+          {
+            "instruction": "Pre-heat the oven to 220°C. Line 2 baking sheets with baking paper and arrange the meatballs with space between them. Drizzle with 1–2 tbsp olive oil and bake, turning halfway, until golden brown and cooked through, approximately 20–30 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "instruction": "Remove from the heat, optionally drizzle with lemon juice, and serve."
+    }
+  ]
+}
