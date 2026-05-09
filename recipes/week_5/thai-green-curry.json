@@ -1,0 +1,24 @@
+{
+  "name": "Thai Green Chicken Curry",
+  "source": "taste.com.au",
+  "url": "https://www.taste.com.au/recipes/green-curry-chicken/bef58a0e-4e01-4ce2-b3df-bb1a23e31763",
+  "ingredients": [
+    {"measurement": {"unit": "tbsp", "amount": 1}, "name": "peanut oil", "intrinsics": [], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": false, "staple": false},
+    {"measurement": {"unit": "g", "amount": 700}, "name": "chicken", "part": "breast", "intrinsics": [], "preparation": ["trimmed", "cut into 3cm pieces"], "category": "Meat & Seafood", "optional": false, "staple": false},
+    {"measurement": {"unit": null, "amount": 1}, "name": "onion", "variety": "brown", "intrinsics": ["large"], "preparation": ["finely chopped"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "cup", "amount": 0.25}, "name": "curry paste", "variety": "green", "intrinsics": [], "preparation": [], "category": "Condiments & Sauces", "optional": false, "staple": false},
+    {"measurement": {"unit": "mL", "amount": 400}, "name": "coconut milk", "intrinsics": ["light", "canned"], "preparation": [], "category": "Canned & Jarred", "optional": false, "staple": false},
+    {"measurement": {"unit": "cup", "amount": 0.75}, "name": "chicken stock", "intrinsics": [], "preparation": [], "category": "Canned & Jarred", "optional": false, "staple": true},
+    {"measurement": {"unit": "tbsp", "amount": 1}, "name": "fish sauce", "intrinsics": [], "preparation": [], "category": "Condiments & Sauces", "optional": false, "staple": true},
+    {"measurement": {"unit": "tbsp", "amount": 2}, "name": "lime juice", "intrinsics": [], "preparation": [], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "g", "amount": 100}, "name": "snake beans", "intrinsics": [], "preparation": ["cut into 4cm lengths"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": null, "amount": 1}, "name": "zucchini", "intrinsics": ["large"], "preparation": ["roughly chopped"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "cup", "amount": 0.5}, "name": "coriander", "part": "leaves", "intrinsics": ["fresh"], "preparation": [], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "cup", "amount": 2}, "name": "jasmine rice", "intrinsics": [], "preparation": ["steamed"], "category": "Pasta & Grains", "optional": false, "staple": true}
+  ],
+  "steps": [
+    {"instruction": "Heat oil in a large saucepan over high heat. Add chicken. Cook, stirring, for 4 to 5 minutes or until browned. Add onion. Cook, stirring, for 2 minutes or until softened. Add curry paste. Cook, stirring, for 30 seconds or until fragrant."},
+    {"instruction": "Add coconut milk, stock, fish sauce and lime juice. Bring to the boil. Reduce heat to medium-low. Simmer for 10 minutes or until thickened slightly. Add beans and zucchini. Cook for 5 minutes or until chicken and vegetables are tender."},
+    {"instruction": "Add coriander. Stir to combine. Serve with steamed jasmine rice."}
+  ]
+}

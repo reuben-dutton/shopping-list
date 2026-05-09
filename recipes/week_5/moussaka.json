@@ -1,0 +1,76 @@
+{
+  "name": "Moussaka (Greek Beef and Eggplant Lasagna)",
+  "source": "RecipeTin Eats",
+  "url": "https://www.recipetineats.com/moussaka-greek-eggplant-beef-bake/",
+  "ingredients": [
+    {
+      "name": "Baked Eggplant",
+      "window": "2 hours",
+      "ingredients": [
+        {"measurement": {"unit": "kg", "amount": 1}, "name": "eggplant", "intrinsics": [], "preparation": ["sliced 0.75cm thick"], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "tsp", "amount": 1}, "name": "salt", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "tbsp", "amount": 3}, "name": "olive oil", "intrinsics": [], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": false, "staple": true}
+      ],
+      "steps": [
+        {"instruction": "Place eggplant slices slightly overlapping in a large colander. Sprinkle with salt. Repeat with remaining eggplant. Leave to sweat for 30 minutes."},
+        {"instruction": "Preheat oven to 240C/450F."},
+        {"instruction": "Pat eggplant dry thoroughly. Lay on parchment-lined trays (you may need 3, work in batches) and brush with olive oil."},
+        {"instruction": "Bake for 15-20 minutes or until lightly browned and softened. Remove and set aside to cool slightly."}
+      ]
+    },
+    {
+      "name": "Greek Meat Sauce",
+      "window": "2 hours",
+      "ingredients": [
+        {"measurement": {"unit": "tbsp", "amount": 1}, "name": "olive oil", "intrinsics": [], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": false, "staple": true},
+        {"measurement": {"unit": null, "amount": 1}, "name": "onion", "variety": "brown", "intrinsics": [], "preparation": ["diced"], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "clove", "amount": 3}, "name": "garlic", "intrinsics": [], "preparation": ["minced"], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "g", "amount": 700}, "name": "beef", "intrinsics": ["mince"], "preparation": [], "category": "Meat & Seafood", "optional": false, "staple": false},
+        {"measurement": {"unit": "cup", "amount": 0.5}, "name": "red wine", "intrinsics": ["dry"], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": true, "staple": false},
+        {"measurement": {"unit": "g", "amount": 400}, "name": "crushed tomatoes", "intrinsics": ["canned"], "preparation": [], "category": "Canned & Jarred", "optional": false, "staple": false},
+        {"measurement": {"unit": "tbsp", "amount": 3}, "name": "tomato paste", "intrinsics": [], "preparation": [], "category": "Canned & Jarred", "optional": false, "staple": true},
+        {"measurement": {"unit": "cup", "amount": 1}, "name": "beef stock", "intrinsics": [], "preparation": [], "category": "Canned & Jarred", "optional": false, "staple": true},
+        {"measurement": {"unit": null, "amount": 1}, "name": "beef bouillon cube", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"amount": 2}, "name": "bay leaf", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 1.5}, "name": "sugar", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 2}, "name": "oregano", "intrinsics": ["dried"], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 0.5}, "name": "cinnamon", "intrinsics": ["ground"], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 0.75}, "name": "salt", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true}
+      ],
+      "steps": [
+        {"instruction": "Heat olive oil in a large skillet or pot over high heat. Cook garlic and onion for 2 minutes."},
+        {"instruction": "Add the beef mince and cook until browned, breaking it up as you go."},
+        {"instruction": "Add wine and cook for 1.5 minutes or until the alcohol smell is gone."},
+        {"instruction": "Add all remaining ingredients and stir to combine. Bring to a simmer, then reduce heat to medium-low and cook for 15 minutes or until reduced to a thick sauce. Remove bay leaves."}
+      ]
+    },
+    {
+      "name": "Bechamel Sauce",
+      "window": "2 hours",
+      "ingredients": [
+        {"measurement": {"unit": "tbsp", "amount": 4}, "name": "butter", "intrinsics": [], "preparation": [], "category": "Dairy & Eggs", "optional": false, "staple": true},
+        {"measurement": {"unit": "tbsp", "amount": 5}, "name": "flour", "intrinsics": ["plain"], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "cup", "amount": 2.5}, "name": "milk", "intrinsics": [], "preparation": [], "category": "Dairy & Eggs", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 0.25}, "name": "nutmeg", "intrinsics": ["fresh"], "preparation": ["grated"], "category": "Dry Goods & Spices", "optional": true, "staple": true},
+        {"measurement": {"unit": "cup", "amount": 0.5}, "name": "parmesan", "intrinsics": [], "preparation": ["grated"], "category": "Dairy & Eggs", "optional": false, "staple": false},
+        {"measurement": {"unit": null, "amount": 1}, "name": "eggs", "intrinsics": [], "preparation": [], "category": "Dairy & Eggs", "optional": false, "staple": true},
+        {"measurement": {"unit": null, "amount": 1}, "name": "eggs", "part": "yolk", "intrinsics": [], "preparation": [], "category": "Dairy & Eggs", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 1.25}, "name": "vegetable stock powder", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 0.25}, "name": "pepper", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true}
+      ],
+      "steps": [
+        {"instruction": "Melt butter in a pan over medium heat. Add flour and cook for 1 minute, stirring constantly."},
+        {"instruction": "Stirring constantly, slowly add the milk. Stir regularly for 3 to 5 minutes until the sauce thickly coats the back of a wooden spoon."},
+        {"instruction": "Remove from heat and whisk in parmesan, nutmeg, stock powder and pepper."},
+        {"instruction": "Allow to cool for 5 minutes, then whisk in the eggs. Cover until required."}
+      ]
+    },
+    {"measurement": {"unit": "cup", "amount": 0.333}, "name": "panko breadcrumbs", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": false}
+  ],
+  "steps": [
+    {"instruction": "Prepare the Baked Eggplant, Greek Meat Sauce and Bechamel Sauce. Lower oven to 180C/350F."},
+    {"instruction": "Place half the eggplant in the base of a baking dish. Top with all of the meat sauce."},
+    {"instruction": "Layer remaining eggplant over the meat sauce. Pour over the bechamel sauce and sprinkle with panko breadcrumbs."},
+    {"instruction": "Bake for 30-40 minutes or until golden brown. Allow to stand for 10 minutes before serving."}
+  ]
+}

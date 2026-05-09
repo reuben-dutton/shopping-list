@@ -1,0 +1,51 @@
+{
+  "name": "Slow-cooker Ginger Marmalade Pork with Broad Bean Couscous",
+  "source": "taste.com.au",
+  "url": "https://www.taste.com.au/recipes/slow-cooker-ginger-marmalade-pork-broad-bean-couscous-recipe/328268uz",
+  "ingredients": [
+    {"measurement": {"unit": "cup", "amount": 0.5}, "name": "ginger marmalade", "intrinsics": [], "preparation": [], "category": "Canned & Jarred", "optional": false, "staple": false},
+    {"measurement": {"unit": "tbsp", "amount": 2}, "name": "Worcestershire sauce", "intrinsics": [], "preparation": [], "category": "Condiments & Sauces", "optional": false, "staple": true},
+    {"measurement": {"unit": "tbsp", "amount": 2}, "name": "soy sauce", "intrinsics": [], "preparation": [], "category": "Condiments & Sauces", "optional": false, "staple": true},
+    {"measurement": {"unit": "tbsp", "amount": 2}, "name": "lemon juice", "intrinsics": [], "preparation": [], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "clove", "amount": 2}, "name": "garlic", "intrinsics": [], "preparation": ["crushed"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "kg", "amount": 1.5}, "name": "pork", "part": "scotch (neck)", "intrinsics": [], "preparation": [], "category": "Meat & Seafood", "optional": false, "staple": false},
+    {"measurement": {"unit": "tbsp", "amount": 1}, "name": "olive oil", "intrinsics": ["extra virgin"], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": false, "staple": true},
+    {"measurement": {"unit": null, "amount": 1}, "name": "lemon", "intrinsics": [], "preparation": ["zested", "cut into wedges"], "category": "Produce", "optional": false, "staple": false},
+    {
+      "name": "Broad Bean Couscous",
+      "window": "none",
+      "ingredients": [
+        {"measurement": {"unit": "cup", "amount": 2}, "name": "couscous", "intrinsics": [], "preparation": [], "category": "Pasta & Grains", "optional": false, "staple": false},
+        {"measurement": {"unit": "cup", "amount": 2}, "name": "water", "intrinsics": [], "preparation": ["boiled"], "category": "Other", "optional": false, "staple": true},
+        {"measurement": {"unit": "cup", "amount": 2}, "name": "broad beans", "intrinsics": ["frozen"], "preparation": ["thawed", "peeled"], "category": "Frozen", "optional": false, "staple": false},
+        {"measurement": {"unit": null, "amount": 2}, "name": "green onion", "intrinsics": [], "preparation": ["thinly sliced"], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "cup", "amount": 0.333}, "name": "coriander", "part": "leaves", "intrinsics": ["fresh"], "preparation": [], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "cup", "amount": 0.333}, "name": "mint", "part": "leaves", "intrinsics": ["fresh"], "preparation": [], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "cup", "amount": 0.333}, "name": "dill", "part": "leaves", "intrinsics": ["fresh"], "preparation": [], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "tbsp", "amount": 2}, "name": "olive oil", "intrinsics": ["extra virgin"], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 1}, "name": "lemon", "part": "rind", "intrinsics": [], "preparation": ["finely grated"], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "tbsp", "amount": 1}, "name": "lemon juice", "intrinsics": [], "preparation": [], "category": "Produce", "optional": false, "staple": false}
+      ],
+      "steps": [
+        {"instruction": "Combine couscous and boiling water in a heatproof bowl. Cover. Set aside for 5 minutes."},
+        {"instruction": "Fluff couscous with a fork to separate grains."},
+        {"instruction": "Add beans, onion, herbs, oil, rind and juice. Season. Toss to combine. Spoon onto a large serving platter."}
+      ]
+    }
+  ],
+  "steps": [
+    {"instruction": "Combine marmalade, sauces, juice and garlic in a bowl."},
+    {"instruction": "Season pork with salt and pepper. Heat oil in a frying pan over medium-high heat. Cook pork, turning, for 5 to 10 minutes or until browned."},
+    {"options": {
+      "Cook on LOW": [
+        {"instruction": "Place half the sauce mixture in slow cooker. Add pork. Pour over remaining sauce. Cover. Cook on LOW for 4 hours. Turn pork. Cook on LOW for a further 4 hours or until tender."}
+      ],
+      "Cook on HIGH": [
+        {"instruction": "Place half the sauce mixture in slow cooker. Add pork. Pour over remaining sauce. Cover. Cook on HIGH for 2 hours. Turn pork. Cook on HIGH for a further 2 hours or until tender."}
+      ]
+    }},
+    {"instruction": "Meanwhile, make the Broad Bean Couscous."},
+    {"instruction": "Carefully transfer pork to a chopping board. Cover to keep warm. Strain pan juices into a small saucepan. Bring to the boil over medium-high heat. Reduce heat to medium. Simmer for 10 to 12 minutes or until sauce thickens. Transfer to a serving jug."},
+    {"instruction": "Slice pork. Arrange on serving platter with the Broad Bean Couscous. Drizzle with sauce and sprinkle with lemon zest. Serve with lemon wedges."}
+  ]
+}

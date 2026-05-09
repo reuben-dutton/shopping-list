@@ -1,0 +1,43 @@
+{
+  "name": "Charred Chicken Bowls with Pickled Red Cabbage",
+  "source": "Woolworths",
+  "url": null,
+  "ingredients": [
+    {
+      "name": "Pickled Red Cabbage",
+      "window": "none",
+      "ingredients": [
+        {"measurement": {"unit": "g", "amount": 250}, "name": "cabbage", "variety": "red", "intrinsics": [], "preparation": ["finely shredded"], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": null, "amount": 1}, "name": "onion", "variety": "red", "intrinsics": ["small"], "preparation": ["thinly sliced"], "category": "Produce", "optional": false, "staple": false},
+        {"measurement": {"unit": "cup", "amount": 0.333}, "name": "red wine vinegar", "intrinsics": [], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 1}, "name": "caster sugar", "intrinsics": [], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "tsp", "amount": 1}, "name": "salt", "intrinsics": ["fine"], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": true},
+        {"measurement": {"unit": "mL", "amount": 80}, "name": "water", "intrinsics": [], "preparation": [], "category": "Other", "optional": false, "staple": true}
+      ],
+      "steps": [
+        {"instruction": "Place cabbage, red onion, vinegar, sugar, salt and water in a large bowl. Mix well to combine."},
+        {"instruction": "Set aside to pickle, stirring every 10 minutes, for 30 minutes. Drain."}
+      ]
+    },
+    {"measurement": {"unit": null, "amount": 2}, "name": "corn", "part": "cob", "intrinsics": [], "preparation": [], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "tbsp", "amount": 2}, "name": "chipotle sauce", "intrinsics": [], "preparation": [], "category": "Condiments & Sauces", "optional": false, "staple": false},
+    {"measurement": {"unit": "cup", "amount": 0.333}, "name": "olive oil", "intrinsics": ["extra virgin"], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": false, "staple": true},
+    {"measurement": {"unit": "cup", "amount": 0.25}, "name": "lime juice", "intrinsics": [], "preparation": [], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": null, "amount": 1}, "name": "lime", "intrinsics": [], "preparation": ["cut into wedges"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "g", "amount": 500}, "name": "chicken", "part": "thigh", "intrinsics": ["fillet"], "preparation": [], "category": "Meat & Seafood", "optional": false, "staple": false},
+    {"measurement": {"unit": "cup", "amount": 2}, "name": "rice", "intrinsics": ["cooked"], "preparation": [], "category": "Pasta & Grains", "optional": false, "staple": true},
+    {"measurement": {"unit": "tbsp", "amount": 2}, "name": "jalapeno", "intrinsics": ["pickled"], "preparation": ["finely chopped"], "category": "Canned & Jarred", "optional": true, "staple": false},
+    {"measurement": {"unit": "cup", "amount": 0.333}, "name": "coriander", "part": "leaves", "intrinsics": ["fresh"], "preparation": ["roughly chopped"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": null, "amount": 1}, "name": "onion", "intrinsics": [], "preparation": ["halved", "sliced"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "g", "amount": 30}, "name": "taco spice mix", "intrinsics": ["packet"], "preparation": [], "category": "Dry Goods & Spices", "optional": false, "staple": false},
+    {"measurement": {"unit": null, "amount": 2}, "name": "avocado", "intrinsics": ["large"], "preparation": ["thinly sliced"], "category": "Produce", "optional": false, "staple": false}
+  ],
+  "steps": [
+    {"instruction": "Make the Pickled Red Cabbage."},
+    {"instruction": "Steam the corn and slice the kernels from the cob."},
+    {"instruction": "Cut chicken into stir-fry style pieces. Cook in a hot pan or chargrill for 3-4 minutes each side until charred and partially cooked. Set aside to rest."},
+    {"instruction": "Combine rice, jalapeno and coriander in a microwave-safe bowl and warm through."},
+    {"instruction": "Heat 1 tbsp oil in a large frypan over medium-high heat. Cook onion, stirring occasionally, for 5 minutes. Add chicken with any resting juices, the taco spice mix, 1 tbsp lime juice and 50ml water. Stir to coat, scraping the bottom of the pan. Cook for 2 minutes or until chicken is cooked through."},
+    {"instruction": "To serve, divide corn, rice, chicken, avocado and drained pickled cabbage between bowls. Top with chipotle sauce, lime wedges and extra coriander."}
+  ]
+}

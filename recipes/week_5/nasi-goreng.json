@@ -1,0 +1,28 @@
+{
+  "name": "Healthy Nasi Goreng",
+  "source": "taste.com.au",
+  "url": "https://www.taste.com.au/recipes/healthy-nasi-goreng-recipe/0l03ekz2",
+  "ingredients": [
+    {"measurement": {"unit": "tsp", "amount": 1}, "name": "macadamia oil", "intrinsics": [], "preparation": [], "category": "Oils, Vinegars & Wine", "optional": false, "staple": true},
+    {"measurement": {"unit": "g", "amount": 250}, "name": "pork", "part": "fillet", "intrinsics": [], "preparation": ["thinly sliced"], "category": "Meat & Seafood", "optional": false, "staple": false},
+    {"measurement": {"unit": "g", "amount": 200}, "name": "prawns", "variety": "tiger", "intrinsics": ["raw", "peeled"], "preparation": [], "category": "Meat & Seafood", "optional": false, "staple": false},
+    {"measurement": {"unit": "clove", "amount": 2}, "name": "garlic", "intrinsics": [], "preparation": ["crushed"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "tsp", "amount": 1}, "name": "sambal oelek", "intrinsics": [], "preparation": [], "category": "Condiments & Sauces", "optional": false, "staple": false},
+    {"measurement": {"unit": "tsp", "amount": 2}, "name": "ginger", "intrinsics": ["fresh"], "preparation": ["finely grated"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "g", "amount": 200}, "name": "beans", "variety": "green", "intrinsics": [], "preparation": ["thinly sliced"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "bunch", "amount": 1}, "name": "broccolini", "intrinsics": [], "preparation": ["cut into 3cm lengths"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": null, "amount": 1}, "name": "carrot", "intrinsics": ["large"], "preparation": ["peeled", "cut into matchsticks"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "cup", "amount": 2}, "name": "rice", "variety": "brown", "intrinsics": ["cooked"], "preparation": [], "category": "Pasta & Grains", "optional": false, "staple": false},
+    {"measurement": {"unit": "tbsp", "amount": 2}, "name": "tomato puree", "intrinsics": [], "preparation": [], "category": "Canned & Jarred", "optional": false, "staple": false},
+    {"measurement": {"unit": "tsp", "amount": 2}, "name": "soy sauce", "intrinsics": ["gluten-free", "salt-reduced"], "preparation": [], "category": "Condiments & Sauces", "optional": false, "staple": true},
+    {"measurement": {"unit": null, "amount": 4}, "name": "eggs", "intrinsics": ["free range"], "preparation": [], "category": "Dairy & Eggs", "optional": false, "staple": false},
+    {"measurement": {"unit": null, "amount": 8}, "name": "cucumber", "variety": "baby (qukes)", "intrinsics": [], "preparation": ["sliced diagonally"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "g", "amount": 200}, "name": "tomatoes", "variety": "grape", "intrinsics": [], "preparation": ["halved"], "category": "Produce", "optional": false, "staple": false},
+    {"measurement": {"unit": "handful", "amount": 1}, "name": "coriander", "part": "leaves", "intrinsics": ["fresh"], "preparation": [], "category": "Produce", "optional": false, "staple": false}
+  ],
+  "steps": [
+    {"instruction": "Heat oil in a large wok or non-stick frying pan over high heat. Stir-fry pork and prawns for 2 minutes or until pork is golden and prawns start to change colour. Add garlic, sambal oelek and ginger. Stir-fry for a minute or until aromatic. Add beans, broccolini and carrot. Stir-fry for 2 minutes or until almost tender. Add rice, tomato puree and soy sauce. Stir-fry for 1-2 minutes or until heated through."},
+    {"instruction": "Meanwhile, spray a large non-stick frying pan with oil over medium-high heat. Crack eggs into pan. Fry until cooked to your liking."},
+    {"instruction": "Divide rice mixture, qukes and tomato among serving bowls. Top with fried eggs and coriander. Season and serve."}
+  ]
+}
