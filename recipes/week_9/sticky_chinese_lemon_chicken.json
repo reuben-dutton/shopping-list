@@ -1,0 +1,273 @@
+{
+  "name": "Sticky Chinese Lemon Chicken",
+  "source": "Creme De La Crumb",
+  "url": "https://www.lecremedelacrumb.com/sticky-chinese-lemon-chicken/",
+  "ingredients": [
+    {
+      "measurement": {
+        "unit": "lb",
+        "amount": 1.5
+      },
+      "name": "chicken",
+      "part": "tenderloin",
+      "intrinsics": [],
+      "preparation": [
+        "chopped into 1 inch pieces"
+      ],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "amount": 2
+      },
+      "name": "eggs",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "unit": "tbsp",
+        "amount": 2
+      },
+      "name": "soy sauce",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Condiments & Sauces",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 0.25
+      },
+      "name": "cooking wine",
+      "variety": "white",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 0.3333
+      },
+      "name": "corn starch",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 0.5
+      },
+      "name": "oil",
+      "variety": "vegetable",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "name": "Lemon Sauce",
+      "window": "1 day",
+      "ingredients": [
+        {
+          "measurement": {
+            "unit": "cup",
+            "amount": 1
+          },
+          "name": "chicken broth",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Canned & Jarred",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "cup",
+            "amount": 0.3333
+          },
+          "name": "soy sauce",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "amount": 2
+          },
+          "name": "lemons",
+          "intrinsics": [],
+          "preparation": [
+            "juiced"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": {
+            "unit": "tsp",
+            "amount": 2
+          },
+          "name": "garlic",
+          "intrinsics": [],
+          "preparation": [
+            "minced"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "cup",
+            "amount": 0.25
+          },
+          "name": "sugar",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 4
+          },
+          "name": "honey",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tsp",
+            "amount": 0.5
+          },
+          "name": "salt",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Juice the lemons - you should have about 4 tablespoons of juice."
+        },
+        {
+          "instruction": "Whisk the chicken broth, soy sauce, lemon juice, garlic, sugar, honey and salt together in a jug or bowl until the sugar has dissolved. Cover and refrigerate until needed."
+        }
+      ]
+    },
+    {
+      "measurement": {
+        "unit": "tbsp",
+        "amount": 4
+      },
+      "name": "chicken broth",
+      "intrinsics": [],
+      "preparation": [
+        "chilled"
+      ],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "unit": "tbsp",
+        "amount": 3
+      },
+      "name": "corn starch",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "amount": 2
+      },
+      "name": "green onions",
+      "intrinsics": [],
+      "preparation": [
+        "thinly sliced"
+      ],
+      "category": "Produce",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "unit": "tbsp",
+        "amount": 1
+      },
+      "name": "sesame seeds",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": true,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 4
+      },
+      "name": "rice",
+      "variety": "white",
+      "intrinsics": [],
+      "preparation": [
+        "cooked"
+      ],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": true
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Chop the chicken into 1 inch pieces. Whisk together the eggs, soy sauce and cooking wine in a bowl, add the chicken and stir to combine. Cover and chill for 30 minutes (5-10 minutes is enough if you are short on time)."
+    },
+    {
+      "instruction": "Transfer the chicken pieces to a large zip-lock bag and discard the marinade. Add the corn starch to the bag, seal, and shake to coat the chicken completely."
+    },
+    {
+      "instruction": "Add the oil to a large pan or skillet and bring to medium-high heat. Transfer the chicken to the pan, arranging the pieces so they are not piled on top of each other. Cook for 3-4 minutes, then turn the pieces and cook another 3-4 minutes until golden brown."
+    },
+    {
+      "instruction": "Use a slotted spoon to transfer the chicken to a paper-towel lined plate. Discard any excess oil in the pan and wipe it out with a paper towel."
+    },
+    {
+      "instruction": "Pour the Lemon Sauce into the pan and bring to a boil over medium-high heat."
+    },
+    {
+      "instruction": "In a small bowl whisk together the cold chicken broth and corn starch until dissolved. Add to the boiling sauce, then reduce the heat to medium-low and stir until thickened."
+    },
+    {
+      "instruction": "Return the chicken to the pan and stir for 2-3 minutes until hot throughout. Garnish with sesame seeds and sliced green onions and serve over the cooked rice."
+    }
+  ]
+}

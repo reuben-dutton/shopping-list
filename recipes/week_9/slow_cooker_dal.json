@@ -1,0 +1,142 @@
+{
+  "name": "Slow Cooker Dal",
+  "source": "Jane Hornby, BBC Good Food",
+  "url": null,
+  "ingredients": [
+    {
+      "measurement": {"unit": "g", "amount": 300},
+      "name": "split peas",
+      "variety": "yellow",
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"amount": 1},
+      "name": "onion",
+      "intrinsics": [],
+      "preparation": ["chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "g", "amount": 200},
+      "name": "tomatoes",
+      "intrinsics": ["tinned", "chopped"],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "piece", "amount": 1},
+      "name": "ginger",
+      "part": "root",
+      "intrinsics": ["fresh"],
+      "preparation": ["finely grated"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "tsp", "amount": 2},
+      "name": "cumin seeds",
+      "intrinsics": [],
+      "preparation": ["1 tsp crushed finely in a mortar, 1 tsp left whole"],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "tsp", "amount": 2},
+      "name": "turmeric",
+      "intrinsics": ["ground"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "clove", "amount": 2},
+      "name": "garlic",
+      "intrinsics": [],
+      "preparation": ["one crushed", "one thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "leaf", "amount": 10},
+      "name": "curry leaves",
+      "intrinsics": ["freeze-dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "mL", "amount": 700},
+      "name": "vegetable stock",
+      "intrinsics": [],
+      "preparation": ["hot"],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"amount": 1},
+      "name": "chilli",
+      "variety": "hot green finger",
+      "intrinsics": [],
+      "preparation": ["thinly sliced"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "tbsp", "amount": 2},
+      "name": "oil",
+      "variety": "vegetable",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "tsp", "amount": 1},
+      "name": "salt",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "tsp", "amount": 0.5},
+      "name": "black pepper",
+      "intrinsics": [],
+      "preparation": ["freshly ground"],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"amount": 1},
+      "name": "lemon",
+      "intrinsics": [],
+      "preparation": ["cut into wedges"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {"instruction": "Place the split peas, onion, tomatoes, ginger, ground cumin, turmeric, crushed garlic, curry leaves and stock into a slow cooker. Add most of the chilli and stir to combine. Cook on high for four hours, until the split peas are tender."},
+    {"instruction": "Season the dal generously with salt and freshly ground black pepper. Just before serving, heat the oil in a saucepan. When the oil is very hot, add the whole cumin seeds and the sliced garlic. Fry until the garlic is golden-brown and the cumin smells toasty and almost smoky."},
+    {"instruction": "Spoon the hot spiced oil over the dal, scatter with the remaining green chilli, then serve with lemon wedges for squeezing."}
+  ]
+}

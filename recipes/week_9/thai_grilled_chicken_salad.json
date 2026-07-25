@@ -1,0 +1,423 @@
+{
+  "name": "Thai Grilled Chicken Salad with Peanut Dressing",
+  "source": "delicious.com.au",
+  "url": "https://www.delicious.com.au/recipes/thai-grilled-chicken-salad-peanut-dressing-recipe/k0wtcyo1",
+  "ingredients": [
+    {
+      "measurement": {
+        "unit": "g",
+        "amount": 500
+      },
+      "name": "chicken",
+      "part": "thigh fillets",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "name": "Marinade",
+      "window": "1 day",
+      "ingredients": [
+        {
+          "measurement": {
+            "amount": 1
+          },
+          "name": "lime",
+          "intrinsics": [],
+          "preparation": [
+            "zest finely grated"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": {
+            "unit": "cup",
+            "amount": 0.25
+          },
+          "name": "lime juice",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 1
+          },
+          "name": "olive oil",
+          "intrinsics": [
+            "extra virgin"
+          ],
+          "preparation": [],
+          "category": "Oils, Vinegars & Wine",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 1
+          },
+          "name": "fish sauce",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 1
+          },
+          "name": "soy sauce",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 1
+          },
+          "name": "sugar",
+          "variety": "brown",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "clove",
+            "amount": 1
+          },
+          "name": "garlic",
+          "intrinsics": [],
+          "preparation": [
+            "crushed"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tsp",
+            "amount": 0.25
+          },
+          "name": "white pepper",
+          "intrinsics": [
+            "ground"
+          ],
+          "preparation": [],
+          "category": "Dry Goods & Spices",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 2
+          },
+          "name": "coriander",
+          "part": "leaves",
+          "intrinsics": [],
+          "preparation": [
+            "finely chopped"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Place the lime zest, lime juice, olive oil, fish sauce, soy sauce, brown sugar, garlic, white pepper and chopped coriander in a medium bowl. Mix well to combine."
+        }
+      ]
+    },
+    {
+      "name": "Peanut Dressing",
+      "window": "two days",
+      "ingredients": [
+        {
+          "measurement": {
+            "unit": "cup",
+            "amount": 0.25
+          },
+          "name": "peanut butter",
+          "intrinsics": [
+            "crunchy"
+          ],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 2
+          },
+          "name": "soy sauce",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 2
+          },
+          "name": "lime juice",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 1
+          },
+          "name": "fish sauce",
+          "intrinsics": [],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "tbsp",
+            "amount": 1
+          },
+          "name": "honey",
+          "intrinsics": [
+            "runny"
+          ],
+          "preparation": [],
+          "category": "Condiments & Sauces",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "clove",
+            "amount": 1
+          },
+          "name": "garlic",
+          "intrinsics": [],
+          "preparation": [
+            "crushed"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "measurement": {
+            "unit": "g",
+            "amount": 10
+          },
+          "name": "ginger",
+          "intrinsics": [
+            "fresh"
+          ],
+          "preparation": [
+            "finely grated"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "measurement": {
+            "amount": 1
+          },
+          "name": "chilli",
+          "variety": "small red",
+          "intrinsics": [],
+          "preparation": [
+            "thinly sliced"
+          ],
+          "category": "Produce",
+          "optional": false,
+          "staple": false
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Place the peanut butter, soy sauce, lime juice, fish sauce, honey, garlic, ginger and chilli in a small bowl and whisk to combine. Adjust the seasoning to taste."
+        }
+      ]
+    },
+    {
+      "measurement": {
+        "unit": "tbsp",
+        "amount": 2
+      },
+      "name": "oil",
+      "variety": "vegetable",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {
+        "amount": 1
+      },
+      "name": "wombok",
+      "variety": "baby",
+      "intrinsics": [],
+      "preparation": [
+        "thinly shredded"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "amount": 1
+      },
+      "name": "carrot",
+      "intrinsics": [],
+      "preparation": [
+        "cut into long ribbons"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "amount": 1
+      },
+      "name": "capsicum",
+      "variety": "red",
+      "intrinsics": [],
+      "preparation": [
+        "thinly sliced"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 1
+      },
+      "name": "bean sprouts",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 0.5
+      },
+      "name": "coriander",
+      "part": "leaves",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 0.5
+      },
+      "name": "mint",
+      "part": "leaves",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 0.5
+      },
+      "name": "Thai basil",
+      "part": "leaves",
+      "intrinsics": [],
+      "preparation": [
+        "plus extra to garnish"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "unit": "cup",
+        "amount": 0.3333
+      },
+      "name": "peanuts",
+      "intrinsics": [
+        "roasted",
+        "salted"
+      ],
+      "preparation": [
+        "roughly chopped"
+      ],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {
+        "amount": 1
+      },
+      "name": "lime",
+      "intrinsics": [],
+      "preparation": [
+        "cut into wedges"
+      ],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare the Marinade. Add the chicken thigh fillets, turning to ensure each piece is well coated. Cover and refrigerate for at least 30 minutes."
+    },
+    {
+      "instruction": "Prepare the Peanut Dressing."
+    },
+    {
+      "instruction": "Heat a grill pan over medium-high heat and add the vegetable oil. Remove the chicken from the marinade, allowing any excess to drip off. Grill the chicken for 5-6 minutes on each side until crispy, golden and cooked through. Transfer to a plate to rest, then slice."
+    },
+    {
+      "instruction": "In a large bowl, combine the wombok, carrot, capsicum, bean sprouts, coriander, mint and the Thai basil. Add the Peanut Dressing and toss to coat well."
+    },
+    {
+      "instruction": "Arrange the salad on a platter or individual plates and top with the sliced chicken. Garnish with the peanuts, lime wedges and extra Thai basil leaves and serve immediately."
+    }
+  ]
+}

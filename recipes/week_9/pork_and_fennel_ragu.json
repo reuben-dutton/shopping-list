@@ -1,0 +1,173 @@
+{
+  "name": "Pork and Fennel Ragù",
+  "source": "The Weekend Australian Magazine",
+  "url": null,
+  "ingredients": [
+    {
+      "measurement": {"unit": "cup", "amount": 0.25},
+      "name": "olive oil",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"amount": 1},
+      "name": "onion",
+      "variety": "small",
+      "intrinsics": [],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"amount": 1},
+      "name": "fennel",
+      "part": "bulb",
+      "intrinsics": [],
+      "preparation": ["finely chopped", "fronds reserved for serving"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "tsp", "amount": 1},
+      "name": "fennel seeds",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "clove", "amount": 2},
+      "name": "garlic",
+      "intrinsics": [],
+      "preparation": ["finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "tbsp", "amount": 1},
+      "name": "tomato paste",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "mL", "amount": 125},
+      "name": "white wine",
+      "intrinsics": ["dry"],
+      "preparation": [],
+      "category": "Oils, Vinegars & Wine",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "mL", "amount": 125},
+      "name": "chicken stock",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Canned & Jarred",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "tsp", "amount": 1},
+      "name": "salt",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "g", "amount": 500},
+      "name": "pork mince",
+      "intrinsics": ["free-range", "not too lean"],
+      "preparation": [],
+      "category": "Meat & Seafood",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"amount": 1},
+      "name": "chilli",
+      "variety": "birds eye",
+      "intrinsics": [],
+      "preparation": ["deseeded", "finely chopped"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "leaf", "amount": 1},
+      "name": "bay leaf",
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Dry Goods & Spices",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "mL", "amount": 250},
+      "name": "milk",
+      "intrinsics": ["full-cream"],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": true
+    },
+    {
+      "measurement": {"unit": "piece", "amount": 1},
+      "name": "Parmigiano Reggiano",
+      "part": "rind",
+      "intrinsics": [],
+      "preparation": [],
+      "category": "Dairy & Eggs",
+      "optional": true,
+      "staple": false
+    },
+    {
+      "measurement": {"amount": 1},
+      "name": "lemon",
+      "intrinsics": [],
+      "preparation": ["zested"],
+      "category": "Produce",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "handful", "amount": 1},
+      "name": "Parmigiano Reggiano",
+      "intrinsics": [],
+      "preparation": ["grated", "plus extra to serve"],
+      "category": "Dairy & Eggs",
+      "optional": false,
+      "staple": false
+    },
+    {
+      "measurement": {"unit": "g", "amount": 400},
+      "name": "pasta",
+      "variety": "short",
+      "intrinsics": ["dried"],
+      "preparation": [],
+      "category": "Pasta & Grains",
+      "optional": false,
+      "staple": false
+    }
+  ],
+  "steps": [
+    {"instruction": "Add the olive oil to a deep-sided pan with a lid over medium to low heat. Throw in the onion, fennel, fennel seeds, garlic and salt. Cook, stirring occasionally, for 15 minutes until soft and sweet."},
+    {"instruction": "Add the pork, breaking it up with a wooden spoon, and cook for about 5 to 10 minutes until brown. Stir in the chilli and tomato paste and cook for a further 2 minutes."},
+    {"instruction": "Pour in the wine, leaving it to bubble and boil for a few minutes or until mostly reduced by half. Add the stock, the bay leaf and the Parmigiano Reggiano rind, if using. Turn the heat down to low, cover and cook for 90 minutes, stirring occasionally."},
+    {"instruction": "Add the milk, stir and continue to cook for another hour. If you're finding your ragù needs more liquid, add a little stock. Turn off the heat and add the lemon zest. Check the seasoning and adjust if necessary."},
+    {"instruction": "Meanwhile, bring a large saucepan of water to a lively boil and season it as salty as the sea. Add the pasta and cook until al dente. Scoop out ½ cup of pasta water, then drain the pasta."},
+    {"instruction": "Toss the pasta in the ragù with some grated Parmigiano Reggiano, adding a splash of pasta water to loosen things up. Give everything a good toss around. Serve with extra cheese and the reserved fennel fronds."}
+  ]
+}
